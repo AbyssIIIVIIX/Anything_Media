@@ -77,6 +77,24 @@ html {
   }
 }
 
+@media screen and (max-width: 625px) {
+  #icons {
+    height: 10px; !important; 
+    width: 50%;
+    text-align: center;
+    /*border: 2px solid white;*/
+    position: fixed;
+    top: 25px;
+    left: 45%;
+  }
+
+
+  
+  #icons > img {
+    display: none;
+  }
+}
+
   
 
   
@@ -2026,20 +2044,26 @@ ul.icons {
 }
 
   #banner input, #banner select, #banner textarea {
-    color: #ffffff; }
+    color: #ffffff; 
+  }
   #banner a {
-    color: #ce1b28; }
+    color: #ce1b28;
+  }
   #banner strong, #banner b {
-    color: #ffffff; }
+    color: #ffffff; 
+  }
   #banner h1, #banner h2, #banner h3, #banner h4, #banner h5, #banner h6 {
-    color: #0062ad; }
+    color: #0062ad; 
+  }
   #banner blockquote {
     border-left-color: rgba(255, 255, 255, 0.25); }
   #banner code {
     background: rgba(255, 255, 255, 0.075);
-    border-color: rgba(255, 255, 255, 0.25); }
+    border-color: rgba(255, 255, 255, 0.25); 
+  }
   #banner hr {
-    border-bottom-color: rgba(255, 255, 255, 0.25); }
+    border-bottom-color: rgba(255, 255, 255, 0.25); 
+  }
   #banner input[type="submit"],
   #banner input[type="reset"],
   #banner input[type="button"],
@@ -2047,7 +2071,8 @@ ul.icons {
   #banner .button {
     background-color: #0062ad;
     box-shadow: inset 0 0 0 3px #0062ad;
-    color: #ffffff !important; }
+    color: #ffffff !important; 
+  }
     #banner input[type="submit"]:hover,
     #banner input[type="reset"]:hover,
     #banner input[type="button"]:hover,
@@ -2056,13 +2081,15 @@ ul.icons {
       border: 3px solid #0062ad;
       background-color: #ffffff;
       box-shadow: inset 0 0 0 4px #ffffff;
-      color: #0062ad !important; }
+      color: #0062ad !important; 
+    }
       #banner input[type="submit"]:hover:active,
       #banner input[type="reset"]:hover:active,
       #banner input[type="button"]:hover:active,
       #banner button:hover:active,
       #banner .button:hover:active {
-        background-color: rgba(206, 27, 40, 0.25); }
+        background-color: rgba(206, 27, 40, 0.25); 
+      }
     #banner input[type="submit"].primary,
     #banner input[type="reset"].primary,
     #banner input[type="button"].primary,
@@ -2070,22 +2097,26 @@ ul.icons {
     #banner .button.primary {
       box-shadow: none;
       background-color: #ce1b28;
-      color: #ffffff !important; }
+      color: #ffffff !important; 
+    }
       #banner input[type="submit"].primary:hover,
       #banner input[type="reset"].primary:hover,
       #banner input[type="button"].primary:hover,
       #banner button.primary:hover,
       #banner .button.primary:hover {
         background-color: #e2212f;
-        box-shadow: none; }
+        box-shadow: none; 
+      }
         #banner input[type="submit"].primary:hover:active,
         #banner input[type="reset"].primary:hover:active,
         #banner input[type="button"].primary:hover:active,
         #banner button.primary:hover:active,
         #banner .button.primary:hover:active {
-          background-color: #b71824; }
+          background-color: #b71824; 
+        }
   #banner label {
-    color: #ffffff; }
+    color: #ffffff; 
+  }
   #banner input[type="text"],
   #banner input[type="password"],
   #banner input[type="email"],
@@ -2095,7 +2126,8 @@ ul.icons {
   #banner select,
   #banner textarea {
     background-color: rgba(255, 255, 255, 0.075);
-    border-color: rgba(255, 255, 255, 0.25); }
+    border-color: rgba(255, 255, 255, 0.25); 
+  }
     #banner input[type="text"]:focus,
     #banner input[type="password"]:focus,
     #banner input[type="email"]:focus,
@@ -2105,7 +2137,8 @@ ul.icons {
     #banner select:focus,
     #banner textarea:focus {
       border-color: #ce1b28;
-      box-shadow: 0 0 0 1px #ce1b28; }
+      box-shadow: 0 0 0 1px #ce1b28; 
+    }
   #banner select {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' preserveAspectRatio='none' viewBox='0 0 40 40'%3E%3Cpath d='M9.4,12.3l10.4,10.4l10.4-10.4c0.2-0.2,0.5-0.4,0.9-0.4c0.3,0,0.6,0.1,0.9,0.4l3.3,3.3c0.2,0.2,0.4,0.5,0.4,0.9 c0,0.4-0.1,0.6-0.4,0.9L20.7,31.9c-0.2,0.2-0.5,0.4-0.9,0.4c-0.3,0-0.6-0.1-0.9-0.4L4.3,17.3c-0.2-0.2-0.4-0.5-0.4-0.9 c0-0.4,0.1-0.6,0.4-0.9l3.3-3.3c0.2-0.2,0.5-0.4,0.9-0.4S9.1,12.1,9.4,12.3z' fill='rgba(255, 255, 255, 0.25)' /%3E%3C/svg%3E"); }
     #banner select option {
