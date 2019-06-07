@@ -121,14 +121,15 @@ max-width: 100%;
   height: auto !important;
   width: 50%;
   margin-top: 0px;
-  margin-bottom: 10px;
   }
+
 
   #logo1 {
   height: auto;
   max-width: 85%;
   margin-left: 0px;
   margin-top: 15px;
+  margin-bottom: 10px;
   }
    
 
