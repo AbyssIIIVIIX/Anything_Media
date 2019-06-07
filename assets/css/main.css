@@ -125,9 +125,10 @@ max-width: 100%;
 
 
   #logo1 {
-  height: auto;
-  max-width: 85%;
-  margin-left: 0px;
+    height: auto;
+    max-width: 85%;
+    margin-left: 0px;
+    margin-top: 3px;
   }
   
    
