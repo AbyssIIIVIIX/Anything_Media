@@ -120,7 +120,8 @@ max-width: 100%;
   #logo-bar {
   height: auto !important;
   width: 50%;
-  margin-top: 0px; 
+  margin-top: 0px;
+  margin-bottom: 10px;
   }
 
   #logo1 {
