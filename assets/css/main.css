@@ -118,9 +118,9 @@ max-width: 100%;
 @media screen and (max-width: 480px) {
 
   #logo-bar {
-  height: auto !important;
-  width: 50%;
-  margin-top: 0px;
+    height: auto !important;
+    width: 50%;
+    margin-top: 0px;  
   }
 
 
@@ -128,9 +128,8 @@ max-width: 100%;
     height: auto;
     max-width: 85%;
     margin-left: 0px;
-    margin-top: 3px;
   }
-  
+
    
 
 }
