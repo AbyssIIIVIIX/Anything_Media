@@ -94,6 +94,7 @@ margin-top: 0px; }
 margin: auto;  
 height: auto;
 max-width: 100%;
+padding-bottom: 10px;
 }
 
 @media screen and (max-width: 980px;) {
@@ -127,7 +128,7 @@ max-width: 100%;
   #logo1 {
     height: auto;
     max-width: 85%;
-    margin-left: 0px;
+    margin-left: 0px; 
   }
 
    
