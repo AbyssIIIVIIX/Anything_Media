@@ -255,7 +255,9 @@ p {
 
 header.special {
   text-align: center;
-  margin-bottom: 4rem; }
+  margin-bottom: 4rem;
+  margin-top: 2rem; 
+}
   header.special p {
     max-width: 75%;
     margin-left: auto;
