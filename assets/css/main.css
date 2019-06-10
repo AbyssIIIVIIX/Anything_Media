@@ -20,23 +20,6 @@ html {
 *, *:before, *:after {
   box-sizing: inherit; }
 
- /*Social media list on contact box*/
-ul#plain {
-    list-style: none;
-    padding-left: 0; }
-    ul#plain li {
-      margin-bottom: 1rem; }
-      ul#plain li .icon {
-        border-radius: 4px;
-        color: #ffffff;
-        display: inline;
-        margin-right: 5px;
-        text-align: center;
-        width: auto;
-        line-height: 2rem;
-        background: rgba(0, 0, 0, 0.5); }
-        
-
 
 /*icons*/
 #icons {
@@ -721,7 +704,6 @@ ol {
     padding-left: 0.25rem; }
 
 ul {
-  list-style: disc;
   margin: 0 0 2rem 0;
   padding-left: 1rem; }
   ul li {
@@ -901,6 +883,11 @@ table.alt tbody tr td {
 
   .highlights .content .icon {
       font-size: 5rem; 
+    }
+
+    .highlights .content .icon li {
+      font-size: 2rem;
+      list-style: none; 
     }
 
   .highlights > div > :last-child {
