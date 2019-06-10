@@ -30,12 +30,12 @@ ul#plain {
         border-radius: 4px;
         color: #ffffff;
         display: inline;
-        margin-right: 1rem;
+        margin-right: 5px;
         text-align: center;
-        width: 2rem;
-        height: 2rem;
+        width: auto;
         line-height: 2rem;
         background: rgba(0, 0, 0, 0.5); }
+        
 
 
 /*icons*/
