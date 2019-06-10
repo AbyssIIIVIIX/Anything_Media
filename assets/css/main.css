@@ -20,6 +20,22 @@ html {
 *, *:before, *:after {
   box-sizing: inherit; }
 
+ /*Social media list on contact box*/
+ul#plain {
+    list-style: none;
+    padding-left: 0; }
+    ul#plain li {
+      margin-bottom: 1rem; }
+      ul#plain li .icon {
+        border-radius: 4px;
+        color: #ffffff;
+        display: inline;
+        margin-right: 1rem;
+        text-align: center;
+        width: 2rem;
+        height: 2rem;
+        line-height: 2rem;
+        background: rgba(0, 0, 0, 0.5); }
 
 
 /*icons*/
