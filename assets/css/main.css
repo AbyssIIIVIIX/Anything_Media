@@ -20,6 +20,9 @@ html {
 *, *:before, *:after {
   box-sizing: inherit; }
 
+ul#test li {
+  display:inline;
+}
 
 /*icons*/
 #icons {
@@ -705,7 +708,8 @@ ol {
 
 ul {
   margin: 0 0 2rem 0;
-  padding-left: 1rem; }
+  padding-left: 1rem; 
+  }
   ul li {
     padding-left: 0.325rem; }
   ul.plain {
@@ -722,18 +726,23 @@ ul {
         width: 2rem;
         height: 2rem;
         line-height: 2rem;
-        background: rgba(0, 0, 0, 0.5); }
+        background: rgba(0, 0, 0, 0.5); 
+      }
   ul.alt {
     list-style: none;
-    padding-left: 0; }
+    padding-left: 0; 
+  }
     ul.alt li {
       border-top: solid 1px;
-      padding: 0.75rem 0; }
+      padding: 0.75rem 0; 
+    }
       ul.alt li:first-child {
         border-top: 0;
-        padding-top: 0; }
+        padding-top: 0; 
+      }
       ul.alt li:last-child {
-        padding-bottom: 0; }
+        padding-bottom: 0; 
+      }
 
 dl {
   margin: 0 0 2rem 0; }
@@ -887,7 +896,8 @@ table.alt tbody tr td {
 
     .highlights .content .icon li {
       font-size: 2rem;
-      list-style: none; 
+      list-style: none;
+      display: inline; 
     }
 
   .highlights > div > :last-child {
@@ -1978,19 +1988,19 @@ ul.icons {
 
 /* Wrapper */
 .wrapper {
-  padding: 8rem 0 6rem 0 ;
+  padding: 8rem 0 0 0 ;
   position: relative;
   z-index: 1; }
 
   @media screen and (max-width: 1280px) {
     .wrapper {
-      padding: 4rem 0 2rem 0 ; } }
+      padding: 4rem 0 0 0 ; } }
   @media screen and (max-width: 736px) {
     .wrapper {
-      padding: 3rem 0 1rem 0 ; } }
+      padding: 3rem 0 0 0 ; } }
   @media screen and (max-width: 480px) {
     .wrapper {
-      padding: 2rem 0 0.1rem 0 ; } }
+      padding: 2rem 0 0 0 ; } }
 
 /* Banner */
 #banner {
