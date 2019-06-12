@@ -2036,6 +2036,42 @@ ul.icons {
   position: relative;
   text-align: center;
   width: 100%;
+}
+
+  #Aboutbanner {
+  background-attachment: fixed;
+  background-image: url("http://i.imgur.com/hXaCj.jpg");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: auto;
+  position: relative;
+  text-align: center;
+  z-index: 1;
+  -ms-flex-align: center;
+  -ms-flex-pack: center;
+  /*background-color: #111111;
+  color: rgba(255, 255, 255, 0.5);*/
+  -moz-align-items: center;
+  -webkit-align-items: center;
+  -ms-align-items: center;
+  align-items: center;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -moz-justify-content: center;
+  -webkit-justify-content: center;
+  -ms-justify-content: center;
+  justify-content: center;
+  border-top: 0;
+  display: -ms-flexbox;
+  height: 35rem !important;
+  min-height: 35rem;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  width: 100%;
+
  
   
  
@@ -2277,6 +2313,243 @@ ul.icons {
     opacity: 0; }
   body.is-preload #banner:before {
     opacity: 1; }
+
+      #Aboutbanner input, #Aboutbanner select, #Aboutbanner textarea {
+    color: #ffffff; }
+  #Aboutbanner a {
+    color: #ce1b28; }
+  #Aboutbanner strong, #Aboutbanner b {
+    color: #ffffff; }
+  #Aboutbanner h1, #Aboutbanner h2, #Aboutbanner h3, #Aboutbanner h4, #Aboutbanner h5, #Aboutbanner h6 {
+    color: #0062ad; }
+  #Aboutbanner blockquote {
+    border-left-color: rgba(255, 255, 255, 0.25); }
+  #Aboutbanner code {
+    background: rgba(255, 255, 255, 0.075);
+    border-color: rgba(255, 255, 255, 0.25); }
+  #Aboutbanner hr {
+    border-bottom-color: rgba(255, 255, 255, 0.25); }
+  #Aboutbanner input[type="submit"],
+  #Aboutbanner input[type="reset"],
+  #Aboutbanner input[type="button"],
+  #Aboutbanner button,
+  #Aboutbanner .button {
+    background-color: #0062ad;
+    box-shadow: inset 0 0 0 3px #0062ad;
+    color: #ffffff !important; }
+    #Aboutbanner input[type="submit"]:hover,
+    #Aboutbanner input[type="reset"]:hover,
+    #Aboutbanner input[type="button"]:hover,
+    #Aboutbanner button:hover,
+    #Aboutbanner .button:hover {
+      border: 3px solid #0062ad;
+      background-color: #ffffff;
+      box-shadow: inset 0 0 0 4px #ffffff;
+      color: #0062ad !important; }
+      #Aboutbanner input[type="submit"]:hover:active,
+      #Aboutbanner input[type="reset"]:hover:active,
+      #Aboutbanner input[type="button"]:hover:active,
+      #Aboutbanner button:hover:active,
+      #Aboutbanner .button:hover:active {
+        background-color: rgba(206, 27, 40, 0.25); }
+    #Aboutbanner input[type="submit"].primary,
+    #Aboutbanner input[type="reset"].primary,
+    #Aboutbanner input[type="button"].primary,
+    #Aboutbanner button.primary,
+    #Aboutbanner .button.primary {
+      box-shadow: none;
+      background-color: #ce1b28;
+      color: #ffffff !important; }
+      #Aboutbanner input[type="submit"].primary:hover,
+      #Aboutbanner input[type="reset"].primary:hover,
+      #Aboutbanner input[type="button"].primary:hover,
+      #Aboutbanner button.primary:hover,
+      #Aboutbanner .button.primary:hover {
+        background-color: #e2212f;
+        box-shadow: none; }
+        #Aboutbanner input[type="submit"].primary:hover:active,
+        #Aboutbanner input[type="reset"].primary:hover:active,
+        #Aboutbanner input[type="button"].primary:hover:active,
+        #Aboutbanner button.primary:hover:active,
+        #Aboutbanner .button.primary:hover:active {
+          background-color: #b71824; }
+  #Aboutbanner label {
+    color: #ffffff; }
+  #Aboutbanner input[type="text"],
+  #Aboutbanner input[type="password"],
+  #Aboutbanner input[type="email"],
+  #Aboutbanner input[type="tel"],
+  #Aboutbanner input[type="search"],
+  #Aboutbanner input[type="url"],
+  #Aboutbanner select,
+  #Aboutbanner textarea {
+    background-color: rgba(255, 255, 255, 0.075);
+    border-color: rgba(255, 255, 255, 0.25); }
+    #Aboutbanner input[type="text"]:focus,
+    #Aboutbanner input[type="password"]:focus,
+    #Aboutbanner input[type="email"]:focus,
+    #Aboutbanner input[type="tel"]:focus,
+    #Aboutbanner input[type="search"]:focus,
+    #Aboutbanner input[type="url"]:focus,
+    #Aboutbanner select:focus,
+    #Aboutbanner textarea:focus {
+      border-color: #ce1b28;
+      box-shadow: 0 0 0 1px #ce1b28; }
+  #Aboutbanner select {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' preserveAspectRatio='none' viewBox='0 0 40 40'%3E%3Cpath d='M9.4,12.3l10.4,10.4l10.4-10.4c0.2-0.2,0.5-0.4,0.9-0.4c0.3,0,0.6,0.1,0.9,0.4l3.3,3.3c0.2,0.2,0.4,0.5,0.4,0.9 c0,0.4-0.1,0.6-0.4,0.9L20.7,31.9c-0.2,0.2-0.5,0.4-0.9,0.4c-0.3,0-0.6-0.1-0.9-0.4L4.3,17.3c-0.2-0.2-0.4-0.5-0.4-0.9 c0-0.4,0.1-0.6,0.4-0.9l3.3-3.3c0.2-0.2,0.5-0.4,0.9-0.4S9.1,12.1,9.4,12.3z' fill='rgba(255, 255, 255, 0.25)' /%3E%3C/svg%3E"); }
+    #Aboutbanner select option {
+      color: rgba(255, 255, 255, 0.5);
+      background-color: #111111; }
+  #Aboutbanner input[type="checkbox"] + label,
+  #Aboutbanner input[type="radio"] + label {
+    color: rgba(255, 255, 255, 0.5); }
+    #Aboutbanner input[type="checkbox"] + label:before,
+    #Aboutbanner input[type="radio"] + label:before {
+      background: rgba(255, 255, 255, 0.075);
+      border-color: rgba(255, 255, 255, 0.25); }
+  #Aboutbanner input[type="checkbox"]:checked + label:before,
+  #Aboutbanner input[type="radio"]:checked + label:before {
+    background-color: #ce1b28;
+    border-color: #ce1b28;
+    color: #ffffff; }
+  #Aboutbanner input[type="checkbox"]:focus + label:before,
+  #Aboutbanner input[type="radio"]:focus + label:before {
+    border-color: #ce1b28;
+    box-shadow: 0 0 0 1px #ce1b28; }
+  #Aboutbanner ::-webkit-input-placeholder {
+    color: rgba(255, 255, 255, 0.4) !important; }
+  #Aboutbanner :-moz-placeholder {
+    color: rgba(255, 255, 255, 0.4) !important; }
+  #Aboutbanner ::-moz-placeholder {
+    color: rgba(255, 255, 255, 0.4) !important; }
+  #Aboutbanner :-ms-input-placeholder {
+    color: rgba(255, 255, 255, 0.4) !important; }
+  #Aboutbanner ul.alt li {
+    border-top-color: rgba(255, 255, 255, 0.25); }
+  #Aboutbanner table tbody tr {
+    border-color: rgba(255, 255, 255, 0.25); }
+    #Aboutbanner table tbody tr:nth-child(2n + 1) {
+      background-color: rgba(255, 255, 255, 0.075); }
+  #Aboutbanner table th {
+    color: #ffffff; }
+  #Aboutbanner table thead {
+    border-bottom-color: rgba(255, 255, 255, 0.25); }
+  #Aboutbanner table tfoot {
+    border-top-color: rgba(255, 255, 255, 0.25); }
+  #Aboutbanner table.alt tbody tr td {
+    border-color: rgba(255, 255, 255, 0.25); }
+  #Aboutbanner .highlights .content {
+    background: #111111;
+    box-shadow: 0px 0px 4px 1px rgba(255, 255, 255, 0.025); }
+  #Aboutbanner .testimonials .content {
+    background: #111111;
+    box-shadow: 0px 0px 4px 1px rgba(255, 255, 255, 0.025); }
+    #Aboutbanner .testimonials .content .credit strong {
+      color: #ce1b28; }
+  #Aboutbanner > .inner {
+    -moz-transform: scale(1.0);
+    -webkit-transform: scale(1.0);
+    -ms-transform: scale(1.0);
+    transform: scale(1.0);
+    -moz-transition: opacity 1s ease, -moz-transform 1s ease;
+    -webkit-transition: opacity 1s ease, -webkit-transform 1s ease;
+    -ms-transition: opacity 1s ease, -ms-transform 1s ease;
+    transition: opacity 1s ease, transform 1s ease;
+    opacity: 1;
+    position: relative;
+    z-index: 3; }
+    #Aboutbanner > .inner > :last-child {
+      margin-bottom: 0; }
+  #Aboutbanner h1 {
+    font-size: 4rem;
+    font-weight: 450;
+    margin-bottom: 1rem; }
+  #Aboutbanner p {
+    font-size: 1.5rem; }
+  #Aboutbanner a {
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none; }
+    #Aboutbanner a:hover {
+      color: #ffffff; }
+  #Aboutbanner video {
+    -moz-transform: translateX(50%) translateY(50%);
+    -webkit-transform: translateX(50%) translateY(50%);
+    -ms-transform: translateX(50%) translateY(50%);
+    transform: translateX(50%) translateY(50%);
+    bottom: 50%;
+    height: auto;
+    min-height: 100%;
+    min-width: 100%;
+    overflow: hidden;
+    position: absolute;
+    right: 50%;
+    width: auto; }
+  #Aboutbanner:before {
+    -moz-transition: opacity 3s ease;
+    -webkit-transition: opacity 3s ease;
+    -ms-transition: opacity 3s ease;
+    transition: opacity 3s ease;
+    -moz-transition-delay: 1.25s;
+    -webkit-transition-delay: 1.25s;
+    -ms-transition-delay: 1.25s;
+    transition-delay: 1.25s;
+    background: #ffffff;
+    content: '';
+    display: block;
+    height: 100%;
+    left: 0;
+    opacity: 0.05;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1; }
+  #Aboutbanner:after {
+   background: linear-gradient(#c1c1c1, #111111);
+    content: ' ';
+    display: block;
+    height: 100%;
+    left: 0;
+    opacity: 0.4;
+    position: absolute;
+    top: 0;
+    webkit-linear-gradient-width: 100%;
+    width: 100%;
+    z-index: 1; }
+  #Aboutbanner.small {
+    height: 30vh !important;
+    min-height: 30vh; }
+  @media screen and (max-width: 1280px) {
+    #Aboutbanner video {
+      display: none; } }
+  @media screen and (max-width: 736px) {
+    #Aboutbanner {
+      height: auto !important;
+      min-height: 0;
+      padding: 4rem 2rem 4rem 2rem; }
+      #Aboutbanner .inner {
+        width: 100%; }
+      #Aboutbanner h1 {
+        font-size: 1.75rem;
+        margin-bottom: 0.5rem;
+        padding-bottom: 0; }
+      #Aboutbanner p {
+        font-size: 1.25rem; }
+      #Aboutbanner br {
+        display: none; }
+      #Aboutbanner .button {
+        width: 100%; } }
+  @media screen and (max-width: 480px) {
+    #Aboutbanner p {
+      font-size: 1rem; } }
+  body.is-preload #Aboutbanner .inner {
+    -moz-transform: scale(0.99);
+    -webkit-transform: scale(0.99);
+    -ms-transform: scale(0.99);
+    transform: scale(0.99);
+    opacity: 0; }
+  body.is-preload #Aboutbanner:before {
+    opacity: 1; }
+
 
 /* CTA */
 #cta {
