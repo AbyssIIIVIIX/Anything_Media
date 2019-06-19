@@ -24,6 +24,35 @@ ul#test li {
   display:inline;
 }
 
+/*Profile Pic*/
+ .me {
+  width: 250px;
+  height: 250px;
+  margin: auto;
+  border: 2px solid blue
+ }
+ .me img {
+    max-width: :250px;
+    max-height: 250px;
+  }
+@media screen and (max-width: 480px){ 
+   .me img {
+    width: 100%;
+    margin: 0;
+  }
+}
+@media screen and (max-width: 780px){ 
+   .me img {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+  }
+}
+ 
+  
+  
+
+
 /*icons*/
 #icons {
   height: 60px; !important; 
