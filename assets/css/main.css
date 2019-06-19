@@ -32,13 +32,12 @@ ul#test li {
   border: 2px solid blue
  }
  .me img {
-    max-width: :250px;
-    max-height: 250px;
+    width: 100%;
+    height: auto;
   }
 @media screen and (max-width: 480px){ 
    .me img {
     width: 100%;
-    margin: 0;
   }
 }
 @media screen and (max-width: 780px){ 
