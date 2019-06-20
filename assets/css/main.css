@@ -24,12 +24,17 @@ ul#test li {
   display:inline;
 }
 
+/*Instagram Profile*/
+@media screen and (max-width: 480px){
+  div.col-6 {
+    max-width: 100%;
+    float: none;
+  }
+}
 /*Profile Pic*/
  .me {
   width: 250px;
   height: 250px;
-  margin: auto;
-  border: 2px solid blue
  }
  .me img {
     width: 100%;
@@ -208,7 +213,7 @@ section, summary, time, mark, audio, video {
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
-  display: block; }
+  display: block;}
 
 body {
   line-height: 1; }
@@ -2249,7 +2254,8 @@ ul.icons {
     transition: opacity 1s ease, transform 1s ease;
     opacity: 1;
     position: relative;
-    z-index: 3; }
+    z-index: 3
+    ; }
     #banner > .inner > :last-child {
       margin-bottom: 0; }
   #banner h1 {
@@ -3193,7 +3199,6 @@ body {
   background: #ffffff;
   border-radius: 4px;
   box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.025);
-  margin-bottom: 2rem;
   padding: 3rem; }
   @media screen and (max-width: 980px) {
     #main .content {
