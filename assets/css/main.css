@@ -30,6 +30,9 @@ ul#test li {
     max-width: 100%;
     float: none;
   }
+  .eui-widget-title .eapps-instagram-feed-title {
+    color: blue;
+  }
 }
 /*Profile Pic*/
  .me {
