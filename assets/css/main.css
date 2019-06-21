@@ -2078,10 +2078,10 @@ ul.icons {
 
   #Aboutbanner {
   background-attachment: fixed;
-  background-image: url("http://i.imgur.com/hXaCj.jpg");
-  background-position: bottom;
+  background-image: url("../../images/blueanime.jpg");
+  background-position: center;
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: 100%;
   position: relative;
   text-align: center;
   z-index: 1;
@@ -2351,7 +2351,7 @@ ul.icons {
     transform: scale(0.99);
     opacity: 0; }
   body.is-preload #banner:before {
-    opacity: 1; }
+    opacity: 0.8; }
 
       #Aboutbanner input, #Aboutbanner select, #Aboutbanner textarea {
     color: #ffffff; }
@@ -2926,7 +2926,7 @@ body {
   padding-top: 3.25rem; }
   body:before {
     content: ' ';
-    background-image: url(../../images/bg.jpg);
+    background-image: url(../../images/print.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -2937,7 +2937,7 @@ body {
     width: 100%;
     height: 100%;
     z-index: -1;
-    opacity: 0.05; }
+    opacity: 0.6; }
 
 #header {
   -moz-align-items: center;
