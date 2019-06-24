@@ -51,7 +51,7 @@ ul#test li {
  .me {
   width: 250px;
   height: 250px;
-  margin-left: 10%;
+  margin: auto;
   }
  .me img {
     width: 100%;
