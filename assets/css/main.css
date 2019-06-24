@@ -24,6 +24,19 @@ ul#test li {
   display:inline;
 }
 
+.btl {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+/*BTL ICONS*/
+@media screens and (max-width: 480px){
+  .btl {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+}
 /*Instagram Profile*/
 @media screen and (max-width: 480px){
   div.col-6 {
@@ -2080,7 +2093,7 @@ ul.icons {
   background-image: url("../../images/blueanime.jpg");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
   position: relative;
   text-align: center;
   z-index: 1;
