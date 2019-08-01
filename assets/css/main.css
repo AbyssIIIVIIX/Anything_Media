@@ -8,6 +8,8 @@
 
 
 /*hex gallery -------------------------------------------------------------------------------------------------------------------------------------*/
+/*
+
 *{
   margin:0;
   padding:0;
@@ -27,8 +29,8 @@
   position:relative;
   list-style-type:none;
   width:27.85714285714286%; /* = (100-2.5) / 3.5 */
-  padding-bottom: 32.16760145166612%; /* =  width /0.866 */
-  float:left;
+ /* padding-bottom: 32.16760145166612%; /* =  width /0.866 */
+  /*float:left;
   overflow:hidden;
   visibility:hidden;
  
@@ -50,6 +52,7 @@
   -ms-transform: translateX(50%) rotate(-60deg) skewY(30deg);
   transform: translateX(50%) rotate(-60deg) skewY(30deg);
 }
+
 #categories li:nth-child(6n+4):last-child, #categories li:nth-child(6n+5):last-child, #categories li:nth-child(6n+6):last-child{
   margin-bottom:0%;
 }
@@ -71,25 +74,29 @@
   -webkit-backface-visibility:hidden;
   
 }
-
+*/
 /* HEX CONTENT */
+/*
 #categories li img{
   left:-100%; right:-100%;
   width: auto; height:100%;
   margin:0 auto;   
 }
 
-#categories div h1, #categories div p{
+#categories div h1 #categories div p {
   width:100%;
   padding:0 5%;
-  background-color:#008080; background-color: #0462AC /*rgba(0, 128, 128, 0.8)*/;
-  font-family: 'Raleway', sans-serif;
+  background-color:#008080; background-color: #0462AC; /*rgba(0, 128, 128, 0.8)*/
+  /*font-family: 'Raleway', sans-serif;
   color: #ffffff;
-  
   -webkit-transition: top .2s ease-out, bottom .2s ease-out, .2s padding .2s ease-out;
   -ms-transition: top .2s ease-out, bottom .2s ease-out, .2s padding .2s ease-out;
   transition: top .2s ease-out, bottom .2s ease-out, .2s padding .2s ease-out;
 }
+
+
+
+
 #categories li h1{
   bottom:110%;
   font-style:italic;
@@ -116,7 +123,7 @@
 
 
 /* HOVER EFFECT  */
-
+/*
 #categories li div:hover h1 {
   bottom:50%;
   padding-bottom:10%;
@@ -156,6 +163,109 @@
 #fork:hover:before {
   transform: translateX(0) skewX(-45deg);
 }
+  /*Media queries -------------------------------------------------------------------------------------------------------------------------------------*/
+
+@media screen and (max-width: 480px) {
+
+  /*hex gallery -------------------------------------------------------------------------------------------------------------------------------------*/
+  
+
+  *{
+    margin:0;
+    padding:0;
+  }
+
+  #categories {
+    overflow:hidden;
+    width:100%;
+    margin: auto;
+  }
+  
+  #categories li{
+    display: block;
+    list-style-type:none;
+    width: 100%;
+    overflow:hidden;
+  }
+
+  #categories li div img {
+    width: 100%;
+    height: auto;
+    margin: 0;
+
+  }
+
+  #categories li > div {
+  width:100%;
+  text-align:center;
+  color:#fff;
+  overflow:hidden;
+  }
+/*
+
+  /* HEX CONTENT */
+  #categories li img {
+    left:-100%; 
+    right:-100%;
+    width: auto; height:100%;
+    margin:0 auto;   
+  }
+
+  #categories div p{
+    width:100%;
+    padding:10px;
+    background-color:#008080; background-color: #0462AC;
+    font-family: 'Raleway', sans-serif;
+    color: #ffffff;
+    -webkit-transition: top .2s ease-out, bottom .2s ease-out, .2s padding .2s ease-out;
+    -ms-transition: top .2s ease-out, bottom .2s ease-out, .2s padding .2s ease-out;
+    transition: top .2s ease-out, bottom .2s ease-out, .2s padding .2s ease-out;
+  }
+
+  #categories div h1{
+    width:100%;
+    padding:10px;
+    font-family: 'Raleway', sans-serif;
+    color: #000000;
+    -webkit-transition: top .2s ease-out, bottom .2s ease-out, .2s padding .2s ease-out;
+    -ms-transition: top .2s ease-out, bottom .2s ease-out, .2s padding .2s ease-out;
+    transition: top .2s ease-out, bottom .2s ease-out, .2s padding .2s ease-out;
+  }
+
+
+  #categories li h1{
+    bottom:110%;
+    font-style:italic;
+    font-weight:normal;
+    font-size:1.5em;
+    padding-top:10px;
+    padding-bottom:10px;
+  }
+
+
+
+
+  #categories li p{
+    padding-top:10px;
+    top:110%;
+    padding-bottom:10px;
+  }
+
+ 
+}
+ 
+
+
+@media screen and (max-width: 980px) {
+ 
+
+}
+
+@media screen and (max-width: 980px) {
+ 
+
+}
+
 
 /* Basic -----------------------------------------------------------------------------------------------------------------------------*/
 @-ms-viewport {
