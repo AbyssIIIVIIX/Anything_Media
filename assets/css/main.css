@@ -8,6 +8,12 @@
 
 
 /*hex gallery -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+#banner .inner h1 {
+  font-weight: 600;
+}
+
+  
+
   *{
   margin:0;
   padding:0;
@@ -1450,7 +1456,9 @@ table.alt tbody tr td {
 }
 
 
-
+#main .content{
+  background-color: blue;
+}
 /* Testimonials */
 .testimonials {
   margin: 2.5rem 0;
@@ -3618,7 +3626,6 @@ body {
 /* Main */
 #main .content {
   background: #ffffff;
-  border-radius: 4px;
   box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.025);
   padding: 3rem; 
   }
