@@ -1,0 +1,53 @@
+	
+<!-- Hex-Gallery ---------------------------------------------------------------------------------------------------------------------------------->
+			<ul id="categories" class="clr">
+			  <li class="pusher"></li>
+				<li>
+			      <div>
+			        <img src="images/civil1.jpg" alt=""/>
+			        <h1 style="font-weight: 500;">CADD DESIGN & DRAFTING</h1>
+			        <p>Some sample text about the article this hexagon leads to</p>
+			    </div>
+			  </li>
+			  <div style="height: 25px;"></div>
+			    <li>
+			      <div>
+			        <img src="images/Final_logo-01.png" alt=""/>
+			        <h1 style="font-weight: 500;">Graphic Art</h1>
+			        <p>Some sample text about the article this hexagon leads to</p>
+			    </div>
+			  </li>
+			  <div style="height: 25px;"></div>
+			  <li>
+			      <div>
+			        <img src="work/Web Design/21.jpg" alt=""/>
+			        <h1 style="font-weight: 500;">Web Design & Dev</h1>
+			        <p>Some sample text about the article this hexagon leads to</p>
+			    </div>
+			  </li>
+			  <div style="height: 25px;"></div>
+			  <li>
+			      <div>
+			        <img src="images/hot boi.jpg" alt=""/>
+			        <h1 style="font-weight: 500;">VFX</h1>
+			        <p>Some sample text about the article this hexagon leads to</p>
+			    </div>
+			  </li>
+			 <div style="height: 25px;"></div>
+			  <li>
+			      <div>
+			        <img src="https://farm7.staticflickr.com/6217/6216951796_e50778255c.jpg" alt=""/>
+			        <h1 style="font-weight: 500;">3D and CG art</h1>
+			        <p>Some sample text about the article this hexagon leads to</p>
+			    </div>
+			  </li>
+			  <div style="height: 25px;"></div>
+			  <li>
+			      <div>
+			        <img src="https://farm7.staticflickr.com/6083/6055581292_d94c2d90e3.jpg" alt=""/>
+			        <h1 style="font-weight: 500;">XYZ</h1>
+			        <p>Some sample text about the article this hexagon leads to</p>
+			    </div>
+			  </li>
+			  
+			</ul>
