@@ -108,12 +108,12 @@ left:0;
 }
 
 
-@media  screen and (max-width: 480px){
+@media screen and (max-width: 480px) {
   
 #expLogo {
  width: 35%; 
  position: absolute; 
- top: 23%; 
+ top: 23.5%; 
  left: 13%;
 }
 
