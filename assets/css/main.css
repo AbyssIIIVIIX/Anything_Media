@@ -5,13 +5,244 @@
   templated.co @templatedco
   Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 */
+.expFont {
+  margin-bottom: 5%;
+  padding: 20px;
+  background-color: #6b92b0;
+  color: white; 
+  border: 2px solid #003f70;
+  border-radius: 10px;
+  -webkit-box-shadow: 8px 10px 3px 2px #888888;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow:    8px 10px 3px 2px #888888;  /* Firefox 3.5 - 3.6 */
+  box-shadow:         8px 10px 3px 2px #888888;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+}
+
+.expFont p {
+  color: #ffffff;
+  font-weight: 400;
+}
+
+
+
+.expFont h1, .expFont h2, .expFont h3{
+  color: #003f70;
+  text-shadow: .5px .5px #ffffff;
+}
+
+
+.wrapper section img {
+  border-radius: 15px;
+}
+
+#expLogo {
+ width: 25%; 
+ position: absolute; 
+ top: 19%; 
+ left: 13%;
+}
+
+ #expLogo2 {
+ width: 13%;
+ position: absolute;
+ top: 39%; 
+ left: 13%; 
+}
+
+ #expLogo3 {
+width: 13%; 
+position: absolute; 
+top: 57%; 
+left: 12.5%;
+}
+
+ #expLogo4 {
+width: 13%; 
+position: absolute; 
+top: 57%; 
+left: 28%;
+}
+
+ #expLogo5 {
+width: 35%; 
+position: absolute;
+top: 79%; 
+left:0;  
+}
+
+@media  screen and (max-width: 380px){
+  
+#expLogo {
+ width: 35%; 
+ position: absolute; 
+ top: 55%; 
+ left: 13%;
+}
+
+ #expLogo2 {
+ width: 13%;
+ position: absolute;
+ top: 39%; 
+ left: 13%; 
+}
+
+ #expLogo3 {
+width: 13%; 
+position: absolute; 
+top: 55.965%; 
+left: 12.5%;
+}
+
+ #expLogo4 {
+width: 13%; 
+position: absolute; 
+top: 56%; 
+left: 28%;
+}
+
+ #expLogo5 {
+width: 35%; 
+position: absolute;
+top: 79%; 
+left:0;  
+  }
+}
+
+
+@media  screen and (max-width: 480px){
+  
+#expLogo {
+ width: 35%; 
+ position: absolute; 
+ top: 23%; 
+ left: 13%;
+}
+
+ #expLogo2 {
+ width: 13%;
+ position: absolute;
+ top: 39%; 
+ left: 13%; 
+}
+
+ #expLogo3 {
+width: 13%; 
+position: absolute; 
+top: 55.965%; 
+left: 12.5%;
+}
+
+ #expLogo4 {
+width: 13%; 
+position: absolute; 
+top: 56%; 
+left: 28%;
+}
+
+ #expLogo5 {
+width: 35%; 
+position: absolute;
+top: 79%; 
+left:0;  
+}
+  
+}
+
+@media  screen and (max-width: 1080px){
+
+ #expLogo {
+  width: 22%;
+  position: absolute;
+  top: 21.8%;
+  left: 13%;
+}
+
+
+ #expLogo2 {
+ width: 13%;
+ position: absolute;
+ top: 40%; 
+ left: 13%; 
+}
+
+ #expLogo3 {
+width: 13%; 
+position: absolute; 
+top: 57.76%; 
+left: 12.5%;
+}
+
+ #expLogo4 {
+width: 13%; 
+position: absolute; 
+top: 57.76%; 
+left: 26%;
+}
+
+ #expLogo5 {
+width: 35%; 
+position: absolute;
+top: 78%; 
+left:0;  
+}
+
+}
+  
+
+
+@media  screen and (max-width: 780px){
+
+#expLogo {
+width: 46%;
+position: absolute;
+top: 22.8%;
+left: 13%;
+}
+
+ #expLogo2 {
+width: 27%;
+position: absolute;
+top: 40.8%;
+left: 13%;
+}
+
+ #expLogo3 {
+width: 13%; 
+position: absolute; 
+top: 56.1%;
+left: 12.5%;
+}
+
+ #expLogo4 {
+width: 13%;
+position: absolute;
+top: 56.1%;
+left: 26.8%;
+}
+
+ #expLogo5 {
+width: 35%;
+position: absolute;
+top: 72.6%;
+left: 0;
+}
+
+  
+}
+
 /*Slick Slider --------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
+
+.wrapper section {
+  width: 75%;
+  height: auto;
+  margin: auto;
+  display: block;
+}
 #slideshow {
   text-align: center;
   margin: auto;
   padding-bottom: 5%;
-  
+
 }
 
 
@@ -24,16 +255,38 @@
 }
 #slideshow div {
   width: 90%;
-  height:300px;
+  height:350px;
   margin: auto;
-}
+ }
 
 #slideshow div img {
       width: 100%;
       height: auto;
     } 
 
+@media screen and (max-width: 480px){
+  #slideshow div {
+  width: 90%;
+  height:170px;
+  margin: auto;
+ }
 
+
+ #slideshow div img {
+      width: 100%;
+      height: auto;
+    } 
+.slick-next:before, .slick-prev:before {
+  margin: 0;
+  
+}
+
+  
+}
+
+#banner div h1, #Aboutbanner div h1 {
+  font-weight: 800;
+}
 
   
 /* Basic ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
@@ -61,7 +314,7 @@ ul#test li {
     left: 0;
   }
 /*BTL ICONS ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
-@media screens and (max-width: 480px){
+@media screen and (max-width: 480px){
   .btl {
     position: absolute;
     top: 0;
@@ -2171,12 +2424,12 @@ ul.icons {
   position: relative;
   text-align: center;
   width: 100%;
+}
 
  
   
  
   
-}
 
   #banner input, #banner select, #banner textarea {
     color: #ffffff; }
@@ -2185,7 +2438,8 @@ ul.icons {
   #banner strong, #banner b {
     color: #ffffff; }
   #banner h1, #banner h2, #banner h3, #banner h4, #banner h5, #banner h6 {
-    color: #0062ad; }
+    color: #0062ad;
+    font-weight: 600 }
   #banner blockquote {
     border-left-color: rgba(255, 255, 255, 0.25); }
   #banner code {
