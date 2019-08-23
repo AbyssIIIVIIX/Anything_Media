@@ -606,7 +606,8 @@ em, i {
   font-style: italic; }
 
 p {
-  margin: 0 0 2rem 0; }
+  margin: 0 0 2rem 0;
+  font-weight: 500; }
 
 header.special {
   text-align: center;
