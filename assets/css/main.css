@@ -707,7 +707,8 @@ ul#test li {
 @media screen and (max-width: 1080px) {
   #icons > img {
     height: 100%;
-    padding-right: 100px;
+    margin-top: 5%;
+    padding-right: 50px;
     padding-bottom: 15px;
   }
 }
