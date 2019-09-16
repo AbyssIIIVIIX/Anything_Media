@@ -533,7 +533,6 @@ left: 0;
 }
 #slideshow div {
   width: 90%;
-  /*height:350px;*/
   margin: auto;
  }
 
@@ -546,7 +545,6 @@ left: 0;
   #slideshow div {
   width: 90%;
   margin: auto;
-  border: 2px solid red;
  }
 
 
