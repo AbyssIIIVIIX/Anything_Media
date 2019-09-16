@@ -533,7 +533,7 @@ left: 0;
 }
 #slideshow div {
   width: 90%;
-  height:350px;
+  /*height:350px;*/
   margin: auto;
  }
 
@@ -545,8 +545,8 @@ left: 0;
 @media screen and (max-width: 480px){
   #slideshow div {
   width: 90%;
-  height:170px;
   margin: auto;
+  border: 2px solid red;
  }
 
 
