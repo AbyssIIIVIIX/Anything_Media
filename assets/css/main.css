@@ -516,6 +516,8 @@ left: 0;
   margin: auto;
   display: block;
 }
+
+
 #slideshow {
   text-align: center;
   margin: auto;
@@ -534,7 +536,7 @@ left: 0;
 #slideshow div {
   width: 90%;
   margin: auto;
- }
+  }
 
 #slideshow div img {
       width: 100%;
@@ -557,8 +559,8 @@ left: 0;
   
 }
 
-  
-}
+}  
+
 
 #banner div h1, #Aboutbanner div h1 {
   font-weight: 800;
