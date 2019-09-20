@@ -17,6 +17,17 @@
     display: inline;
   }
 
+   ul.badges > li > img {
+    height:80px;
+    width: auto: ;
+  }
+
+@media screen and (max-width: 480px){
+  ul.badges > li > img {
+    width: 100%;
+    height: auto;
+  }
+}
 
 
 /*FancyBox------------------------------------------*/
