@@ -5,6 +5,19 @@
   templated.co @templatedco
   Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 */
+/*-----------------------------------------------------------------------------------*/
+.badges {
+  margin: auto;
+}
+
+
+
+
+  ul.badges > li {
+    display: inline;
+  }
+
+
 
 /*FancyBox------------------------------------------*/
 /*! fancyBox v2.1.5 fancyapps.com | fancyapps.com/fancybox/#license */
