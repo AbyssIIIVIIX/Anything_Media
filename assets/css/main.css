@@ -6,10 +6,24 @@
   Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 */
 /*-----------------------------------------------------------------------------------*/
+#dom {
+  width: 25%;
+  height: auto;
+
+}
+
+@media screen and (max-width: 480px){
+  #dom {
+  width: 85%;
+  height: auto;
+  margin: 0;
+
+}
+}
 .slick-dots li button:before {
     color: orange;
   }
-  
+
 .resp-container {
     position: relative;
     overflow: hidden;
@@ -518,7 +532,7 @@ left: 54%;*/
  #expLogo5 {
 width: 30%;
 position: absolute;
-top: 80.5%;
+top: 80.6%;
 left: 3%;
 }
 
