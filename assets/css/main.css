@@ -6,6 +6,10 @@
   Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 */
 /*-----------------------------------------------------------------------------------*/
+.slick-dots li button:before {
+    color: orange;
+  }
+  
 .resp-container {
     position: relative;
     overflow: hidden;
@@ -587,6 +591,7 @@ opacity: .8;*/
     } 
 .slick-next:before, .slick-prev:before {
   margin: 0;
+  color: white;
   
 }
 
@@ -2680,6 +2685,12 @@ ul.icons {
 
 /* Wrapper */
 .wrapper {
+  padding: 8rem 0 0 0 ;
+  position: relative;
+  z-index: 1;
+  }
+
+.wrapper1 {
   padding: 8rem 0 0 0 ;
   position: relative;
   z-index: 1;
