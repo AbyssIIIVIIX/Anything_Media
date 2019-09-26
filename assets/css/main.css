@@ -6,6 +6,11 @@
   Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 */
 /*-----------------------------------------------------------------------------------*/
+#number {
+  text-align: center;
+  background-color: #0462AC;
+  padding: 5px;
+}
 #dom {
   width: 25%;
   height: auto;
@@ -41,8 +46,6 @@
 
 .badges {
   margin: auto;
-
-
 }
 
 
