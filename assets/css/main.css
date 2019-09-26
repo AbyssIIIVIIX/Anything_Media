@@ -348,7 +348,7 @@
 .expFont {
   margin-bottom: 5%;
   padding: 20px;
-  background-color: #6b92b0;
+  background-color: #0462AC;
   color: white; 
   border: 2px solid #003f70;
   border-radius: 10px;
@@ -1565,7 +1565,7 @@ table.alt tbody tr td {
   -ms-align-items: -ms-stretch;
   align-items: stretch;
   /*align-content: center; */
-  background-color: #5DA2D1;
+  background-color: #0462AC;
 }
 
   .highlights > * {
