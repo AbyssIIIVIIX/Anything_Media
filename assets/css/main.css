@@ -972,12 +972,17 @@ p {
 header.special {
   text-align: center;
   margin: auto;
-}
+  background: rgba(255, 255, 255, 0.3);
+  padding: 2rem;
+  border-radius: 15px;
+  margin-bottom: 0;
+ }
   header.special p {
     max-width: 75%;
     margin-left: auto;
-    margin-right: auto; }
-
+    margin-right: auto; 
+    color: #fff;
+}
 h1, h2, h3, h4, h5, h6 {
   font-weight: 300;
   line-height: 1.5;
