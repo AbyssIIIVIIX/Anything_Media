@@ -570,8 +570,10 @@ opacity: .8;*/
 #slideshow h1 {
   background-color: #0062ad;
   color: #ffffff;
-  width: 73%;
+  width: 100%;
   margin: auto;
+  border-top: 2px solid #fff;
+  border-bottom: 2px solid #fff;
 
 }
 #slideshow div {
@@ -631,6 +633,7 @@ opacity: .8;*/
 
   section#slideshow.wrapper h1 {
   width: 100%;
+  border: 0, 2px solid red, 0, 0;
  }
 
 }
