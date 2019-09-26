@@ -2709,6 +2709,7 @@ ul.icons {
 
 .wrapper1 {
   padding: 8rem 0 0 0 ;
+  border-top: 10px solid #fff;
   position: relative;
   z-index: 1;
   /*background-image: url("https://stmed.net/sites/default/files/schematic-wallpapers-29111-2974611.jpg");*/
