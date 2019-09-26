@@ -2657,6 +2657,7 @@ ul.actions {
     font-family: FontAwesome;
     font-style: normal;
     font-weight: normal;
+    color: #0462AC;
     text-transform: none !important; }
   .icon > .label {
     display: none; }
