@@ -2716,6 +2716,7 @@ ul.icons {
 
 .wrapper2 {
   padding: 8rem 0 0 0 ;
+  border-top: 5px solid #fff;
   position: relative;
   z-index: 1; 
   /*background-image: url("http://sf.co.ua/13/04/wallpaper-2761689.jpg");*/
@@ -2727,10 +2728,16 @@ ul.icons {
 .wrapper3 {            
   padding: 8rem 0 0 0 ;
   position: relative;
+  border-top: 5px solid #fff;
+  border-bottom: 10px solid #444;
   z-index: 1; 
-  background-image: url("https://images.unsplash.com/photo-1516259762381-22954d7d3ad2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1366&q=80");
-  background-size: 100%;}
-
+  background-image: url("https://c.wallhere.com/photos/62/7a/1732x1155_px_Code_coding_computer_Computer_Screen_HTML_Knowledge_Logic-1352487.jpg!d");
+  background-size: cover;
+  background-position: absolute;
+  background-repeat: no-repeat;
+  top: 0;
+  left: 0%;
+}
   @media screen and (max-width: 1280px) {
     .wrapper {
       padding: 4rem 0 0 0 ; } }
