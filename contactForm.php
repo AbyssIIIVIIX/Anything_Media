@@ -1,23 +1,33 @@
 <?php  
 
-if (isset($_POST['submit'])) {
+// Please specify your Mail Server - Example: mail.yourdomain.com.
+ini_set("SMTP","thaibxer87@gmail.com");
+
+// Please specify an SMTP Number 25 and 8889 are valid SMTP Ports.
+ini_set("smtp_port","25");
+
+// Please specify the return address to use
+ini_set('sendmail_from', 'thaibxer87@gmail.com');
+
+if(isset($_POST['send'])){
 	$name = $_POST['name'];
 	$email = $_POST['email'];
 	$phone = $_POST['phone'];
-	$byemail = $_POST['byemail'];
-	$byphone = $_POST['byphone'];
-	$dont = $_POST['dont'];
 	$message = $_POST['message'];
+	$mailto = 'thaibxer87@gmail.com';
+	$headers ="From: ".$email;
+	$txt = "Name: ".$name."\n"."Phone: ".$phone."\n\n"."Message:".$message;
 
-	$mailto = "thaibxer87@gmail.com";
-	$headers = "From: ".$email;
-	$txt = "You have mail from ".$name.".\n\n".$message;
+	if(mail($mailto, $headers, $txt)){
+	echo "Success, Thanks you for your Time !.".$name."We'll contact you shortley.";
 
-mail($mailto, $name, $message, $headers);
-header("Location: index.html?mailsend");
+	}
+	
+	else {
+		echo "Something Went Wrong";
+	}
+
 }
-
-
 
 
 ?>
