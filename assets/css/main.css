@@ -1079,7 +1079,7 @@ a {
 strong, b {
   color: #555555; }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3 {
   color: #0062ad; }
 
 blockquote {
@@ -1436,9 +1436,15 @@ ul {
     padding-left: 0.325rem; }
   ul.plain {
     list-style: none;
-    padding-left: 0; }
+    padding-left: 0; 
+    padding-top: 15px;
+    }
+
     ul.plain li {
-      margin-bottom: 1rem; }
+      margin-bottom: 1rem; 
+      display: inline-block; 
+    }
+
       ul.plain li .icon {
         border-radius: 4px;
         color: #ffffff;
@@ -3925,10 +3931,19 @@ body {
 
 /* Main */
 #main .content {
-  background: #ffffff;
-  box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.025);
-  padding: 3rem; 
+  background: linear-gradient(110deg, #111111 60%, #0462AC 60%);
+  padding: 25px;
   }
+  #main .content h4 {
+    color: #fff;
+    }
+/*
+    #main .content .icon:before {
+      color: #fff;
+      background: rgba(0, 0, 0, 0.5);
+      padding: 5px;
+    }*/
+
   @media screen and (max-width: 980px) {
     #main .content {
       padding: 2rem; } }
