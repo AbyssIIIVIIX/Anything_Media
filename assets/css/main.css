@@ -3933,6 +3933,7 @@ body {
 #main .content {
   background: linear-gradient(110deg, #111111 60%, #0462AC 60%);
   padding: 25px;
+  border-radius: 25px;
   }
   #main .content h4 {
     color: #fff;
