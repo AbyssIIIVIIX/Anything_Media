@@ -6,6 +6,15 @@
   Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 */
 /*-----------------------------------------------------------------------------------*/
+.content a {
+  color: #fff;
+
+}
+.content a:hover {
+  color: #007bff;
+
+}
+
 #number {
   text-align: center;
   background-color: #0462AC;
@@ -3938,6 +3947,7 @@ body {
   #main .content h4 {
     color: #fff;
     }
+
 /*
     #main .content .icon:before {
       color: #fff;
