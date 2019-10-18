@@ -642,7 +642,7 @@ opacity: .8;
 
 
 
-@media screen and (max-width: 480px){
+@media only screen and (max-width: 480px){
   
 #expLogo {
   width: 47%;
@@ -681,7 +681,7 @@ left:0;
   
 }
 
-@media  screen and (max-width: 1080px){
+@media only screen and (max-width: 1080px){
 
  #expLogo {
   width: 22%;
@@ -723,7 +723,7 @@ left:0;
   
 
 
-@media  screen and (max-width: 780px){
+@media only screen and (max-width: 780px){
 
 #expLogo {
 width: 47%;
@@ -739,7 +739,7 @@ top: 37.5%;
 left: 13%;
 }
 
- #expLogo3 {
+ #expLogo3, #expLogo4 {
   display: none;
 /*width: 13%;
 position: absolute;
@@ -747,13 +747,7 @@ top: 64.7%;
 left: 41%;*/
 }
 
- #expLogo4 {
-  display: none;
-/*width: 13%;
-position: absolute;
-top: 64.7%; 
-left: 54%;*/
-}
+
 
  #expLogo5 {
 width: 30%;
