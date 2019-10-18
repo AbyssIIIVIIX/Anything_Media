@@ -5,7 +5,217 @@
   templated.co @templatedco
   Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 */
-/*-----------------------------------------------------------------------------------*/
+#main .content h1, h4, h5, a{
+  text-align: center;
+}
+
+div.content a {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+
+/*-----img slide contact----*/
+#loadSlide {
+    width:100%;
+    position:relative;
+    opacity:0;
+    animation:load_up 2s forwards;
+    -webkit-animation:load_up 2s forwards;
+}
+
+@keyframes load_up{
+    from{opacity:0;top:100%}
+    to{opacity:1;top:0%;}
+    
+}@-webkit-keyframes load_up{
+    from{opacity:0;top:100%}
+    to{opacity:1;top:0%;}
+    
+}
+
+
+ul#contacts {
+  list-style: none;
+  padding-left: 0; 
+  padding-top: 15px;
+  width: 50%;
+  margin: auto;
+}
+
+#contacts li {
+  margin-bottom: 1rem;
+  margin-left: auto;
+  margin-right: auto; 
+  display: inline-flex;
+}
+
+
+#contacts li .icon {
+  border-radius: 4px;
+  color: #ffffff;
+  display: inline-block;
+  margin-right: 1rem;
+  text-align: center;
+  width: 2rem;
+  height: 2rem;
+  line-height: 2rem;
+  background: rgba(0, 0, 0, 0.8);
+
+}
+
+@media screen and (max-width: 480px) {
+  ul#contacts {
+    list-style: none;
+    padding-left: 0;
+    padding-top: 15px;
+    width: 81%;
+    margin: auto;
+  }
+
+
+}
+
+@media screen and (max-width: 720px) {
+  ul#contacts {
+    list-style: none;
+    padding-left: 0;
+    padding-top: 15px;
+    width: 81%;
+    margin: auto;
+  }
+
+
+}
+
+@media screen and (max-width: 1020px) {
+  ul#contacts {
+    list-style: none;
+    padding-left: 0;
+    padding-top: 15px;
+    width: 81%;
+    margin: auto;
+  }
+
+
+}
+
+
+
+div.content {
+  overflow: hidden;
+}
+
+
+.content:hover #slide {
+    transition: 1s;
+    left: 70%;
+}
+
+#slide {
+      position: absolute;
+      top: 25%;
+      left: -650px;
+      height: 35%;
+      background: blue;
+      transition: 1s;
+  }
+
+#profile {
+    width: 40%;
+    height: auto ;
+    display: flex;
+    margin: auto;
+  }
+
+}
+
+
+
+
+@media screen and (max-width: 480px){
+  #profile {
+    width: 40%;
+    height: auto;
+    margin: auto;
+    display: block;
+    border-radius: 50px;
+ }
+
+
+  div.content {
+  text-align: center;
+  }
+
+  #space {
+  height: 15px;
+  width: auto;
+  
+  }
+
+}
+
+@media screen and (max-width: 720px){
+  #profile {
+    width: 40%;
+    height: auto;
+    margin: auto;
+    display: block;
+    border-radius: 50px;
+ }
+
+
+  div.content {
+  text-align: center;
+  }
+
+  #space {
+  height: 15px;
+  width: auto;
+  
+  }
+
+}
+
+@media screen and (max-width: 1020px){
+  #profile {
+    width: 40%;
+    height: auto;
+    margin: auto;
+    display: block;
+    border-radius: 50px;
+ }
+
+
+  div.content {
+  text-align: center;
+  }
+
+  #space {
+  height: 15px;
+  width: auto;
+  
+  }
+
+}
+
+
+
+/*--logo for contact--*/
+
+#anything {
+  margin: auto;
+  width: 75%;
+  display: block;
+  padding:10px;
+}
+
+#anything img {
+  margin: auto;
+  width: 100%;
+  padding-top:5px;
+}
+
 .content a {
   color: #fff;
 
@@ -14,6 +224,8 @@
   color: #007bff;
 
 }
+
+
 
 #number {
   text-align: center;
@@ -386,12 +598,12 @@
 #expLogo {
  width: 25%; 
  position: absolute; 
- top: 13.8%; 
+ top: 20%; 
  left: 13%;
 }
 /*fishel*/
 #expLogo2 {
- top: 33.5%; 
+ top: 36.2%; 
  width: 13%;
  position: absolute;
  left: 13%; 
@@ -416,7 +628,7 @@ opacity: .8;
  #expLogo5 {
 width: 30%; 
 position: absolute;
-top: 72%; 
+top: 75%; 
 left:3%;  
 }
 /*powerh*/
@@ -516,14 +728,14 @@ left:0;
 #expLogo {
 width: 47%;
 position: absolute;
-top: 16.35%;
+top: 16%;
 left: 13%;
 }
 
  #expLogo2 {
 width: 27%;
 position: absolute;
-top: 38.1%;
+top: 37.5%;
 left: 13%;
 }
 
@@ -546,7 +758,7 @@ left: 54%;*/
  #expLogo5 {
 width: 30%;
 position: absolute;
-top: 80.6%;
+top: 79.7%;
 left: 3%;
 }
 
@@ -996,6 +1208,13 @@ header.special {
     margin-left: auto;
     margin-right: auto; 
     color: #fff;
+}
+
+@media screen and (max-width: 720px){
+    header.special p {
+    max-width: 100%;
+    color: #fff;
+  }
 }
 h1, h2, h3, h4, h5, h6 {
   font-weight: 300;
@@ -1450,8 +1669,10 @@ ul {
     }
 
     ul.plain li {
-      margin-bottom: 1rem; 
-      display: inline-block; 
+    margin-bottom: 1rem;
+    margin-left: auto;
+    margin-right: auto; 
+    display: inline-flex;
     }
 
       ul.plain li .icon {
@@ -2728,7 +2949,7 @@ ul.icons {
 
 /* Wrapper */
 .wrapper {
-  padding: 8rem 0 0 0 ;
+  padding: 3rem 0 0 0 ;
   position: relative;
   z-index: 1;
   }
@@ -3940,9 +4161,11 @@ body {
 
 /* Main */
 #main .content {
-  background: linear-gradient(110deg, #111111 60%, #0462AC 60%);
+  background: linear-gradient(110deg, #111111 55%, #0462AC 55%);
   padding: 25px;
   border-radius: 25px;
+  width: 100%;
+  margin: auto;
   }
   #main .content h4 {
     color: #fff;
