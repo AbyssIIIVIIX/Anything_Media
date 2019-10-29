@@ -647,126 +647,36 @@ opacity: .8;
 #expLogo {
   width: 47%;
   position: absolute;
-  top: 18%;
+  top: 17.5%;
   left: 13%;
 }
 
  #expLogo2 {
- width: 13%;
+ width: 18%;
  position: absolute;
- top: 39%; 
+ top: 38.5%; 
  left: 13%; 
 }
 
- #expLogo3 {
-width: 13%; 
-position: absolute; 
-top: 55.965%; 
-left: 12.5%;
-}
-
- #expLogo4 {
-width: 13%; 
-position: absolute; 
-top: 56%; 
-left: 28%;
-}
-
- #expLogo5 {
-width: 35%; 
-position: absolute;
-top: 79%; 
-left:0;  
-}
-  
-}
-
-@media only screen and (max-width: 1080px){
-
- #expLogo {
-  width: 22%;
-  position: absolute;
-  top: 21.8%;
-  left: 13%;
-}
-
-
- #expLogo2 {
- width: 13%;
- position: absolute;
- top: 40%; 
- left: 13%; 
-}
-
- #expLogo3 {
-width: 13%; 
-position: absolute; 
-top: 57.76%; 
-left: 12.5%;
-}
-
- #expLogo4 {
-width: 13%; 
-position: absolute; 
-top: 57.76%; 
-left: 26%;
-}
-
- #expLogo5 {
-width: 35%; 
-position: absolute;
-top: 78%; 
-left:0;  
-}
-
-}
-  
-
-
-@media only screen and (max-width: 780px){
-
-#expLogo {
-width: 47%;
-position: absolute;
-top: 16%;
-left: 13%;
-}
-
- #expLogo2 {
-width: 27%;
-position: absolute;
-top: 37.5%;
-left: 13%;
-}
-
- #expLogo3, #expLogo4 {
-  display: none;
-/*width: 13%;
-position: absolute;
-top: 64.7%;
-left: 41%;*/
-}
-
-
-
- #expLogo5 {
-width: 30%;
-position: absolute;
-top: 79.7%;
-left: 3%;
-}
-
- #expLogo6 {
+ #expLogo3, #expLogo4, #expLogo6 {
 display: none;
-/*width: 28%;
-position: absolute;
-top: 64.8%;
-left: 12.5%;
-opacity: .8;*/
 }
 
-  
+
+
+#expLogo5 {
+width: 35%; 
+position: absolute;
+top: 80%; 
+left:0;  
 }
+
+
+}
+
+@media only screen and (max-width: 600px){}
+@media only screen and (max-width: 800px){}
+
 
 /*Slick Slider --------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 

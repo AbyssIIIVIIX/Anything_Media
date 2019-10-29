@@ -77,7 +77,7 @@ Thank you for taking the time to check me out, Anything Media Solutions thrives 
 
 <section id="slideshow" class="wrapper1">
 	<div class="slick">
-		<a href="work/CADD/16-8445 McManusPipePlug.pdf"><img src="images/georgia.png"></a>
+		<a class="iframe" href="work/CADD/16-8445 McManusPipePlug.pdf"><img src="images/georgia.png"></a>
 		<a href="work/CADD/Bremo Station.pdf"><img src="images/Dominion-01.png"></a>
 		<a href="work/CADD/14-8311 Chesapeake Utilities- Oceancity BAC.pdf"><img src="images/Chesapeake.png"></a>
 		<a href="work/CADD/BR11245.pdf"><img src="images/CROFTON-01.png"></a>
@@ -103,9 +103,9 @@ Thank you for taking the time to check me out, Anything Media Solutions thrives 
 <section id="slideshow" class="wrapper3">
 	<div class="slick">
 		<a href="https://www.heartharmonyhomehealthcare.com"><img src="work/Web Design/hh.png"></a>
-		<a href="https://www.21burgersvb.com "><img src="work/Web Design/21.png"></a>
-		<a href="https://www.tenterprisesvb.com"><img src="work/Web Design/te.png"></a>
 		<a href="https://www.greatergrinderssubmarines.com"><img src="work/Web Design/gg-01.png"></a>
+		<a href="https://www.tenterprisesvb.com"><img src="work/Web Design/te.png"></a>
+		<a href="https://www.21burgersvb.com "><img src="work/Web Design/21.png"></a>
 	</div>
 	<br>
 	&nbsp;
@@ -194,6 +194,20 @@ Thank you for taking the time to check me out, Anything Media Solutions thrives 
 
 	});
 </script>
+
+<script>
+	$(document).ready(function() {
+		/* Apply fancybox to multiple items */
+
+		$("a.iframe").fancybox({
+		'width': 640, // or whatever you want
+		'height': 480, // or whatever you want
+		'type': 'iframe'
+		});
+
+		});
+</script>
+
 
 </body>
 </html>
