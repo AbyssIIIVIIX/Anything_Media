@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Demo</title>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	    <meta name="description" content="Demo project">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+		<style type="text/css">
+			
+/*@import url('https://fonts.googleapis.com/css?family=Arimo');
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
+*/
+
+.appetizers .menu-item {
+    background-color: #f17405;
+}
+
+.entrees .menu-item {
+    background-color: #9ec5dc;
+}
+
+/* Menu Leaders -----------------------------------------------------------------------------------------------------------*/
+
+ul.leaders {
+    max-width: 40em;
+    padding: 0;
+    overflow-x: hidden;
+    list-style: none
+  }
+ul.leaders li:before {
+    float: left;
+    width: 0;
+    white-space: nowrap;
+    content:
+ ". . . . . . . . . . . . . . . . . . . . "
+ ". . . . . . . . . . . . . . . . . . . . "
+ ". . . . . . . . . . . . . . . . . . . . "
+ ". . . . . . . . . . . . . . . . . . . . "
+}
+ul.leaders span:first-child {
+    padding-right: 0.33em;
+    background: #a50303
+  }
+ul.leaders span + span {
+    float: right;
+    padding-left: 0.33em;
+    background: #a50303
+  }
+
+
+ul.leaders {
+    max-width: 40em;
+    padding: 0;
+    overflow-x: hidden;
+    list-style: none
+  }
+ul.leaders li:after {
+    float: left;
+    width: 0;
+    white-space: nowrap;
+    content:
+ ". . . . . . . . . . . . . . . . . . . . "
+ ". . . . . . . . . . . . . . . . . . . . "
+ ". . . . . . . . . . . . . . . . . . . . "
+ ". . . . . . . . . . . . . . . . . . . . "
+}
+ul.leaders span:first-child {
+    padding-right: 0.33em;
+    background: #9ec5dc;
+  }
+ul.leaders span + span {
+    float: right;
+    padding-left: 0.33em;
+    background: #9ec5dc;
+    position: relative;
+    z-index: 1
+  }
+
+.appetizers ul.leaders span:first-child {
+    padding-right: 0.33em;
+    background: #f17405;
+  }
+
+.appetizers ul.leaders span + span {
+    float: right;
+    padding-left: 0.33em;
+    background: #f17405;
+    position: relative;
+    z-index: 1
+  }
+
+
+
+
+
+
+@media screen and(max-width: 480px){
+.thing {
+width: 100%;
+display: block;
+border-radius: 10px;
+}
+}
+@media screen and(max-width: 980px){
+.thing {
+width: 100%;
+display: block;
+border-radius: 10px;
+}
+}
+
+@media screen and(max-width: 1080px){
+.thing {
+width: 100%;
+display: block;
+border-radius: 10px;
+}
+}
+
+
+#footerBlocksBottom, #footerBlocksTop {
+display: none;  
+}
+
+.Footer, header.Header.Header--top {
+background-color: #a50303;
+}
+
+img.thumb-image.loaded {
+  border-radius: 15px;
+}
+
+img.Mobile-bar-branding-logo {
+  width: 33%;
+}
+
+.sqs-row, .sqs-block-code {
+  padding-top: 1rem;
+  border-radius: 15px;
+  
+}
+
+ #page-5d13d97644babf0001e10b5f, #page-5d150ae94eea280001317e50, #page-5d146d5c6fdb9400017cf451, #page-5d1511c1bcff4a0001f4be45, #page-5d1a18e540173500012adff0,  {
+   box-shadow: 5px 5px 5px #888888;
+}
+
+
+
+@font-face {
+  font-family: 'Satisfy';
+  src: url('https://static1.squarespace.com/static/5d1273a557831600019822b0/t/5d19911d7c3caa000101d5dd/1561956637092/Satisfy-Regular.ttf');
+ }
+
+
+
+/*Header Image*/
+.Header--bottom {
+  background-image: url("https://static1.squarespace.com/static/58a21d2ee3df281cfde6e815/t/59c2b69f80bd5e5e873c2739/1487706070963/Pastry_Banner.png?format=1500w");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+
+
+#page-5d150ae94eea280001317e50, #page-5d1511c1bcff4a0001f4be45,.row, .sqs-row {
+  background-color: white;
+ }
+
+/*Background image*/
+.Index-page {
+background-image: url("https://static1.squarespace.com/static/5d1273a557831600019822b0/t/5d1a3e84ec39ca00016da6cc/1562001029020/dynamic-style.png");
+}
+
+
+p {
+  font-weight: 600;
+}
+
+h1, h3, a {
+  font-family: satisfy;
+  color: #ffba00;
+  font-weight: 600;
+}
+
+
+.appetizers {
+	.menu-item {
+		background-color:#F17405;
+	}
+}
+.appetizers, .entrees {
+	max-width:80%;
+	h2 {
+		font-family: 'Satisfy', cursive;
+		font-size:2.5em;
+		margin-bottom:0;
+		text-align: center;
+	}
+  h4 {
+    font-family: satisfy;
+    font-size: 1.5em;
+    margin-right: 5px;
+  }
+}
+
+.container {
+	margin:0 auto;
+}
+.entrees {
+	.menu-item {
+		background-color:#A50303;
+	}
+  
+  .menu-item-name, * {
+    color: yellow;
+  }
+  
+  
+
+}
+.flex-column {
+	display:flex;
+	flex-direction:column;
+}
+.flex-row {
+	display:flex;
+	flex-direction:row;
+}
+.flex-wrap {
+	flex-wrap:wrap;
+}
+.flex-center {
+	justify-content:center;
+}
+.menu {
+	font-family: 'Arimo', sans-serif;
+}
+
+
+.menu-heading {
+	font-family: 'Satisfy', cursive;	
+	font-size:calc(2em + 3vw);
+	margin-bottom:0;
+	text-align:center;
+}
+.menu-item {
+    box-shadow: 5px 5px 5px #888888;	
+    line-height:1.5em;	
+	margin:1em;
+	padding: 10px;
+	max-width:25em;
+  	border-radius: 5px;
+}
+.menu-item-title, .menu-item-price {
+  color: #212529;
+  font-weight: 600;
+}
+
+
+
+.menu-item-description {
+	margin:0;
+}
+		</style>
+	</head>
+	<body>
+<div class="menu flex-row flex-wrap flex-center"><!--flex-row flex-wrap flex-center-->
+  <div class="entrees">
+    <div class="menu-item">
+      <h1 class="menu-heading" style="font-size: calc(4em);">Breakfast</h1>
+      <h2 class="menu-heading">Bagels and Croissants</h2>
+      <br >
+      <h4 class="menu-heading">Make It A Combo!</h4>
+      <i class="menu-item-title">All breakfast snadwhiches, bagels, and croissants can be made a combo with fruit cup or hashbrowns and a drink</i>
+      <br >
+      <ul class="leaders">
+        <li class="menu-item-title"><span>Egg</span><span>2.50</span></li>
+        <li class="menu-item-title"><span>Sausage</span><span>3.50</span></li>
+        <li class="menu-item-title"><span>Sausage & Egg</span><span>3.50</span></li>
+        <li class="menu-item-title"><span>Sausage & Egg & Cheese</span><span>4.00</span></li>
+        <li class="menu-item-title"><span>Bacon</span><span>3.75</span></li>
+        <li class="menu-item-title"><span>Bacon & Egg</span><span>4.25</span></li>
+        <li class="menu-item-title"><span>Bacon, Egg & Cheese</span><span>4.75</span></li>
+        <li class="menu-item-title"><span>Turkey Sausage</span><span>3.75</span></li>
+        <li class="menu-item-title"><span>Turkey Sausage & Egg</span><span>4.00</span></li>
+        <li class="menu-item-title"><span>Turkey Sausage, Egg & Cheese</span><span>4.25</span></li>
+        <li class="menu-item-title"><span>Turkey Bacon</span><span>3.95</span></li>
+        <li class="menu-item-title"><span>Turkey Bacon & Egg</span><span>4.45</span></li>
+        <li class="menu-item-title"><span>Turkey Bacon, Egg & Cheese</span><span>4.75</span></li>
+        <li class="menu-item-title"><span>Ham, Egg & Cheese Croissant</span><span>4.75</span></li>
+        <li class="menu-item-title"><span>Turkey, Egg & Cheese</span><span>4.75</span></li>
+      </ul>
+    </div>
+    <!-----------------------Sandwiches------------------------------------------->
+
+    <div class="menu-item">
+      <h2 class="menu-heading">Sandwiches</h2>
+      <ul class="leaders">
+        <li class="menu-item-title"><span>Egg</span><span>3.25</span></li>
+        <li class="menu-item-title"><span>Sausage</span><span>3.75</span></li>
+        <li class="menu-item-title"><span>Sausage & Egg</span><span>4.25</span></li>
+        <li class="menu-item-title"><span>Sausage, Egg & Cheese</span><span>4.75</span></li>
+        <li class="menu-item-title"><span>Bacon</span><span>4.50</span></li>
+        <li class="menu-item-title"><span>Bacon & Egg</span><span>5.00</span></li>
+        <li class="menu-item-title"><span>Bacon, Egg & Cheese</span><span>5.50</span></li>
+        <li class="menu-item-title"><span>Turkey Sausage</span><span>4.00</span></li>
+        <li class="menu-item-title"><span>Turkey Sausage & Egg</span><span>4.50</span></li>
+        <li class="menu-item-title"><span>Turkey Sausage, Egg & Cheese</span><span>5.00</span></li>
+        <li class="menu-item-title"><span>Turkey Bacon</span><span>4.25</span></li>
+        <li class="menu-item-title"><span>Turkey Bacon & Egg</span><span>4.50</span></li>
+        <li class="menu-item-title"><span>Turkey Bacon, Egg & Cheese</span><span>4.75</span></li>
+        <li class="menu-item-title"><span>The Cody breakfast Club</span><span>9.00</span></li>
+        <li class="menu-item-title"><span>Avacado Toast</span><span>3.95 & up</span></li>
+      </ul>
+    </div>
+    <div class="menu-item">
+      <h2 class="menu-heading">Sides</h2>
+      <ul class="leaders">
+        <li class="menu-item-title"><span>Hash Browns</span><span>2.25</span></li>
+        <li class="menu-item-title"><span>Fruit Cuo - 8oz.</span><span>2.95</span></li>
+        <li class="menu-item-title"><span>White or Wheat Toast</span><span>2.00</span></li>
+        <li class="menu-item-title"><span>Plain Bagel</span><span>1.00</span></li>
+        <li class="menu-item-title"><span>Plain Croissant</span><span>1.25</span></li>
+      </ul>
+    </div>
+    <!----------------------Bowls-------------------------------------->
+    <div class="menu-item"> 
+      <h2 class="menu-heading">Bowls</h2>
+      <ul class="leaders">
+        <li class="menu-item-title"><span>Fruit</span><span>3.95</span></li>
+        <li class="menu-item-title"><span>Fruit & Yogurt</span><span>4.50</span></li>
+        <li class="menu-item-title"><span>Acai</span><span>7.50</span></li>
+        <li class="menu-item-title"><span>Oatmeal Fresh Fruit</span><span>4.50</span> </li>
+        <ul class="list"><li><span>add Chia Seeds</span><span>.50</span></li></li><li><span>add Flaxseeds</span><span>.50</span></li></li><li><span>add Peanut Butter</span><span>.45</span></li></li></ul>
+  </ul>
+</div>
+<!-------------------Kids Menu--------------------------------------->
+<div class="menu-item">
+	<ul class="leaders">
+  		<h1 class="menu-heading">Kids Menu</h1>
+        	<h4 class="menu-heading">Kids Breakfast</h4>
+        		<sub style="margin-left: 90%;">Combo</sub>
+                <li class="menu-item-title"><span>French Toast Sticks (4)</span><span>1.95 &nbsp;3.95</span></li>
+                <li class="menu-item-title"><span>French Toast Sticks (6)</span><span>2.25&nbsp;4.25</span></li>
+				<li class="menu-item-title"><span>Sausage Corn Dog</span><span>1.95&nbsp;3.95</span></li>
+        	<h4 class="menu-heading">Kids Lunch</h4>
+        	<sub style="margin-left: 90%;">Combo</sub>
+				<li class="menu-item-title"><span></span>Mini fruit cup</span><span>1.75</span></li>
+				<li class="menu-item-title"><span>Kids Grilled PB&J</span><span>3.00&nbsp;5.00</span></li>
+				<li class="menu-item-title"><span>Half Grilled cheese</span><span>1.50&nbsp; 3.50</span></li>
+				<li class="menu-item-title"><span>Half Ham Sandwich</span><span>2.00&nbsp; 4.00</span></li>
+				<li class="menu-item-title"><span>Half Turkey Sandwich</span><span>2.00&nbsp; 4.00</span></li>
+				<li class="menu-item-title"><span>Half Tuna Sandwich</span><span>2.00&nbsp; 4.00</span></li>
+			<h4 class="menu-heading">Kids Drinks</h4>
+				<li class="menu-item-title"><span>Milk</span><span>1.25</span></li>
+				<li class="menu-item-title"><span>Juice</span><span>.95</span></li>
+				<li class="menu-item-title"><span>12 oz.</span><span>1.50</span></li>
+				<i class="menu-item-title">combo includes choice of chips, go-gurts or apple slices & kids drink</i>
+
+		
+	</ul>
+</div>
+<!-----------------------------Drinks-------------------------------------->
+<div class="menu-item"> 
+  <h1 class="menu-heading">Drinks</h1>
+  <ul class="leaders">
+    <li class="menu-item-title"><span>Coffees</span></li><ul><li><span>Small</span><span>1.75</span></li><li><span>Medium</span><span>1.85</span></li><li><span>Large</span><span>1.95</span></li></ul>
+    <li class="menu-item-title"><span>Fountain Drinks</span><span><sup>M</sup>2.75&nbsp;<sup>L</sup>2.95</span></li>
+    <li class="menu-item-title"><span>Hot Tea</span><span>1.25</span></li>
+    <li class="menu-item-title"><span>Hot Chocolate</span><span>1.25</span></li>
+    <li class="menu-item-title"><span>Orange Juice</span><span>1.25</span></li>
+    <li class="menu-item-title"><span>San Pellegrino</span><span>1.75</span></li>
+    <li class="menu-item-title"><span>Bottled Water</span><span>1.00</span></li>
+  </ul>
+</div>
+
+<!---------------------For your Sweetie----------------------------->
+		<div class="menu-item">
+   		<h1 class="menu-heading">
+		For your Sweetie
+		</h1>  
+			<ul class="leaders">
+				<li class="menu-item-title"><span>Bread Pudding</span><span>4.7.25</span></li>
+				<li class="menu-item-title"><span>Bread Pudding & Ice Cream</span><span>5.50</span></li>
+				<li class="menu-item-title"><span>Warm Donut</span><span>1.75</span></li>
+				<li class="menu-item-title"><span>Graduate Donuts & Ice cream </span><span>5.00</span></li>
+			</ul>
+		</div> 
+<!-------------------Graduate Donuts------------------------->
+       <div class="menu-item">
+       	<h2 class="menu-heading">Graduate Donuts</h2>
+		<ul class="leaders">
+        <li class="menu-item-title"><span>Strawberry Short</span><span></span></li>
+        <li class="menu-item-title"><span>Ssalted Caramel</span><span></span></li>
+        <li class="menu-item-title"><span>Blueberry Dream</span><span></span></li>
+        <li class="menu-item-title"><span>Chocolate Deluxious</span><span></span></li>
+        <li class="menu-item-title"><span>The Trenton</span><span></span></li>
+        <li class="menu-item-title"><span>The Granny</span><span></span></li>
+        <li class="menu-item-title"><span>Banana Split</span><span></span></li>
+        <li class="menu-item-title"><span>PBO</span><span></span></li>
+        <li class="menu-item-title"><span>The Cafe</span><span></span></li>
+        <li class="menu-item-title"><span>Oh My Word</span><span></span></li>
+        <li class="menu-item-title"><span>Birthday Party</span><span></span></li>
+        </ul>
+      </div>
+
+
+</div>
+<!----------------appetizers----------------------------------------------------->
+<div class="appetizers">
+  <div class="menu-item">
+    <ul class="leaders">
+      <h1 class="menu-heading">Lunch Menu</h1>
+      <h4 class="menu-heading">Salads and Cold Plates</h4>
+      <br>
+      <li class="menu-item-title"><span>Garden Salad</span><span>7.00</span></li>
+      <i class="menu-item-name">Tomato, cucumber, carrots & cheese</i>
+      <li class="menu-item-title"><span>Chef Salad</span><span>9.50</span></li>
+      <i class="menu-item-name">Turkey, ham, tomato, cucumber, cheese & boiled egg</i>
+      <li class="menu-item-title"><span>Cob Salad</span><span>11.50</span></li>
+      <i class="menu-item-name">Grilled Chicken, Bacon (turkey or pork), tomato, cucumber, cheese & boiled egg</i>
+      <li class="menu-item-title"><span>Side Salad</span><span>3.50</span></li>
+      <i class="menu-item-name">Tomato, cucumber, carrots & cheese</i>
+
+      <h3>1. Pick your base</h3>
+      Arugula, Spinach, Arcadian Blend
+      <h3>2. Pick your Protein</h3><ul><li><span>Salmon</span><span>7.00</span></li><li><span>Chicken</span><span>3.75</span></li><li><span>Shrimp(6)</span><span>5.00</span></li></ul>
+      <h3>3. Pick your Add-on</h3><ul><li><span>Extra Cheese</span><span>.50</span></li><li><span>Boiled Eggs</span><span>1.50</span></li><li><span>Blueberries & Strawberries</span><span>1.00</span></li><li><span>Chia Seeds</span><span>.50</span></li><li><span>Avacado</span><span>1.50</span></li><li><span>Olives</span><span>.35</span></li><li><span>Nuts</span><span>.45</span></li> <ul><li><sub><span>pecans, almonds, wlanuts, sunflower seeds</sub></span></li></ul></li></ul>
+
+    <li class="menu-item-title"><span>Chicken Salad</span><span>7.00</span></li>
+    <li class="menu-item-title"><span>Tuna Salad</span><span>7.00</span></li>
+    <li class="menu-item-title"><span>Fruit and Veggies & Crackers</span><span>7.00</span></li>
+    <li class="menu-item-title"><span>Add Boiled Eggs & Cheese</span><span>8.00</span></li>
+    </ul>
+</div>
+
+<!-----------------------------Soups-------------------------------->
+<div class="menu-item">
+  <h1 class="menu-heading">Soups</h1>
+  <ul class="leaders">
+    <li class="menu-item-title"><span>Chicken & Rice</span><span><sup>8oz</sup>4.25&nbsp;<sup>12oz	</sup>5.75</span></li>
+    <li class="menu-item-title"><span>Turkey or Veggie Chili</span><span><sup>8oz</sup>4.25&nbsp;<sup>12oz	</sup>5.75</span></li>
+    <li class="menu-item-title"><span>Potato Soup</span><span><sup>8oz</sup>4.25&nbsp;<sup>12oz	</sup>5.75</span></li>
+    <li class="menu-item-title"><span>Tomato Basil</span><span><sup>8oz</sup>4.25&nbsp;<sup>12oz	</sup>5.75</span></li>
+  </ul>
+</div>
+<!-----------------Vegan-------------------------------------------->
+<div class="menu-item">
+  <h1 class="menu-heading">Vegan</h1>
+  <ul class="leaders">
+    <li class="menu-item-title"><span>Vegan Grilled Cheese</span><span>5.25</span></li><ul><li>Cheddar & Mozzarella</li></ul>
+    <li class="menu-item-title"><span>Vegan Melt</span><span>7.75</span></li><ul><li>Vegan Cheese, Spinach onion, Mushroom & sun dried tomatoes</li></ul>
+    <li class="menu-item-title"><span>Vegan Sandwich</span><span>4.95</span></li><ul><li>Vegan Mayo, lettuce, tomato, onions & pickles, up-charge for cheese</li></ul>
+    <li class="menu-item-title"><span>Vegan Mac n Cheese</span><span>4.50</span></li>
+    <li class="menu-item-title"><span>Hummus Plate</span><span>7.50</span></li><ul><li>roasted red pepper of garlic hummes pita bread & side salad</li></ul>
+  </ul>
+</div>
+<!-----------------Sides------------------------------------------->
+<div class="menu-item">
+  <h2 class="menu-heading">Sides</h2>
+  <ul class="leaders">
+    <li class="menu-item-title"><span>Cole Slaw</span><span>2.95</span></li>
+    <li class="menu-item-title"><span>Potato Salad</span><span>3.50</span></li>
+    <li class="menu-item-title"><span>Baked Beans</span><span>3.50</span></li>
+    <li class="menu-item-title"><span>Mac n Cheese</span><span>4.50</span></li>
+    <li class="menu-item-title"><span>Side Salad</span><span>3.50</span></li>
+  </ul>
+</div>
+<!-------------------------Lunch Menu cont'd----------------------------------------->
+<div class="menu-item">
+  <ul class="leaders">
+    <h1 class="menu-heading">Lunch Menu Cont'd</h1>
+    <h3 class="menu-item-name">Toasted</h3>
+    <li class="menu-item-title"><span>Turkey Sandwich</span><span>6.00</span></li>
+    <li class="menu-item-title"><span>Ham Sandwich</span><span>6.00</span></li>
+    <li class="menu-item-title"><span>Turkey Pastrami</span><span>6.00</span></li>
+    <li class="menu-item-title"><span>Roast Beef</span><span>6.25</span></li>
+    <li class="menu-item-title"><span>BLT</span><span>6.25</span></li>
+    <li class="menu-item-title"><span>Avacado BLT</span><span>6.95</span></li>
+    <li class="menu-item-title"><span>Club Sandwich</span><span>8.25</span></li>
+    <li class="menu-item-title"><span>Turkey Stack</span><span>8.50</span></li>
+    <li class="menu-item-title"><span>Chicken Salad</span><span>6.00</span></li>
+    <li class="menu-item-title"><span>Tuna Salad</span><span>5.50</span></li>
+    <li class="menu-item-title"><span>Turkey Melt</span><span>6.00</span></li>
+    <li class="menu-item-title"><span>Pulled BBQ Chicken</span><span>6.75</span></li>
+    <li class="menu-item-title"><span>Pulled BBQ Chicken w/ coleslaw</span><span>6.95</span></li>
+  </ul>
+  <h3 class="menu-item-name">Grilled</h3>
+  <ul class="leaders">
+    <li class="menu-item-title"><span>Grilled PB&J</span><span>4.50</span></li><ul><p>Grape or Strawberry</p></ul>
+    <li class="menu-item-title"><span>Veggie Melt</span><span>7.75</span></li><ul><p>Spinach, mushrooms, onions & sundried tomatoes</p></ul>
+    <li class="menu-item-title"><span>Cheddar Melt</span><span>5.50</span></li><ul><p>cheddar</p></ul>
+    <li class="menu-item-title"><span>Grilled cheese</span><span>5.25</span></li><ul><p>American</p></ul>
+    <li class="menu-item-title"><span>Garlic Grilled Cheese</span><span>5.75</span></li><ul><p>cheddar, mozzarella</p></ul>
+    <li class="menu-item-title"><span>Tripleroni Grilled Cheese</span><span>6.25</span></li><ul><p>cheddar, mozzarella</p></ul>
+    <li class="menu-item-title"><span>Triple Threat Grilled Cheese</span><span>5.95</span></li><ul><p>swiss, cheddar, havarti</p></ul>
+    <li class="menu-item-title"><span>Bacon, Tomato Grilled Cheese</span><span>6.50</span></li><ul><p>American, Havarti</p></ul>
+    <i class="menu-item-decription"><b>All sandwiches are served with lettuce, tomato, onion, mayo or spicy mustard on white, wheat or rye. All deli meats, chicken salad and tuna salad can be lettuce wrapped.</b></i>
+    <ul><li><span>Add Jalepeno's</span><span>.35</span></li><li><span>Add Banana Peppers</span><span>.35</span></li><li><span>add Pickles</span><span>.35</span></li><li><span>Add Avacado</span><span>.35</span></li><li><span>Add Cheese</span><span>.35</span><ul><li>cheddar, american, swiss, mozzarella, havarti</li></ul></li><li><span>Add Specialty Bread</span><span>1.00</span><ul><li>flatbread, sourdough, ciabatta roll, rustic panini, jalepeno cornbread, split top bun, tortilla wrap</li></ul></li></ul>
+  </ul>
+	</div>
+</div>
+<!---------------After 4 Menu---------------------------------->
+<div class="entrees">
+  <div class="menu-item">
+    <ul class="leaders">
+      <h1 class="menu-heading">After 4 Menu</h1>
+      <h3>Small Plates</h3>
+      <li class="menu-item-title"><span>smoked wings</span><span>(6) 6.95&nbsp;(10) 9.95</span></li>
+      <li class="menu-item-title"><span>Crab Cakes</span><span>10.00</span></li>
+      <li class="menu-item-title"><span>Loaded Roasted Potatoes</span><span>7.00</span></li>
+      <li class="menu-item-title"><span>Sauteed shrimp (8)</span><span>8.95</span></li>
+      <li class="menu-item-title"><span>The Grazing Plate</span><span><sub>Small-7.00 &nbsp; Large-14.50</sub></span>
+        <br>
+        <h3>Sides</h3>
+      <li class="menu-item-title"><span>Green Beans</span><span>4.50</span></li>
+      <li class="menu-item-title"><span>Broccli</span><span>4.50</span></li>
+      <li class="menu-item-title"><span>Vegetable Medley</span><span>4.50</span></li>
+      <li class="menu-item-title"><span>Roasted Potatoes</span><span>4.50</span></li>
+      <li class="menu-item-title"><span>Mac n Cheese</span><span>4.50</span></li>
+      <i class="menu-item-description">Includes cheese, crackers, almonds, walnuts, pecans, seasonal fruit & dark chocolate meats: pepperoni & prosciutto, turkey substitute & no meat option available. Pair with a glass of wine</i>
+
+      <h3>Drinks</h3>
+      <li class="menu-item-title"><span>Coffees</span><span><sup>S</sup>1.75 <sup>M</sup>1.85 <sup>L</sup>1.95</span></li>
+      <li class="menu-item-title"><span>Fountain Drinks</span><span><sup>M</sup>2.75 <sup>L</sup>2.95</span></li>
+      <li class="menu-item-title"><span>Hot Tea</span><span>1.25</span></li>
+      <li class="menu-item-title"><span>Hot chocolate</span><span>1.25</span></li>
+      <li class="menu-item-title"><span>Orange Juice</span><span>1.25</span></li>
+      <li class="menu-item-title"><span>San Pellegrino</span><span>1.75</span></li>
+      <li class="menu-item-title"><span>Bottled Water</span><span>1.00</span></li>
+    </ul>
+  </div>
+  <!----------------Signature Sandwiches------------------------------->
+  <div class="menu-item">
+    <h1 class="menu-heading">Signature Sandwiches</h1>
+    <br>
+	<ul class="leaders">
+        <li class="menu-item-title"><span>Ultimate Club</span><span>9.50</span></li>
+        <p class="menu-item-description">Sourdough Bread, Swiss American Cheddar cheese, turkey, ham, and bacon w/ lettuce tomato and mayo</p>
+			<br>
+        <li class="menu-item-title"><span>The Ruth</span><span>7.00</span></li>
+        <p class="menu-item-description">Rustic Panini Bread cheddar and bacon</p>
+<br>
+        <li class="menu-item-title"><span>Ruth Twist</span><span>7.20</span></li>
+        <p class="menu-item-description">Rustic Panini Bread cheddar, bacon and BBQ sauce</p>
+	<br>
+
+        <li class="menu-item-title"><span>The Bodee</span><span>9.00</span></li>
+        <p class="menu-item-description">Rustic Panini Bread American cheese turkey, ham, bacon, lettuce, tomato and mayo</p>
+<br>
+        <li class="menu-item-title"><span>The Morrison</span><span>11.00</span></li>
+        <p class="menu-item-description">Rustic Panini Bread cheddar chicken salad and bacon</p>
+<br>
+        <li class="menu-item-title"><span>Turkey Bacon Ranch</span><span>7.25</span></li>
+        <p class="menu-item-description">Herb flavored flat bread,      turkey, cheddar bacon and ranch</p>
+<br>
+        <li class="menu-item-title"><span>The Blackstone</span><span>20.00</span></li>
+        <p class="menu-item-description">All of our meats and cheeses served on five slices of rustic panini bread lettuce, tomato and mayo</p>
+<br>
+        <li class="menu-item-title"><span>The Pam and Jane</span><span>8.00</span></li>
+        <p class="menu-item-description">Rye bread, Swiss, carmalized onions, Thousand Island, Turkey, Ham, and Pastrami</p>
+<br>
+        <li class="menu-item-title"><span>The Kelsey</span><span>7.25</span></li>
+        <p class="menu-item-description">Rye bread, Swiss, Pastrami and coleslaw</li>
+<br>
+        <li class="menu-item-title"><span>Cafe Roast</span><span>9.00</span></li>
+        <p class="menu-item-description">Shredded roast beef, French onion, Havarti cheese served on a Ciabatta bun</p>
+<br>
+        <li class="menu-item-title"><span>The Tas</span><span>8.00</span></li>
+        <p class="menu-item-description">Pulled BBQ chicken on jalepeno cornbread</p>
+<br>
+        <li class="menu-item-title"><span>TKO</span><span>9.50</span></li>
+        <p class="menu-item-description">Pulled BBQ chicken, cheddar and bacon on jalepeno cornbread</p>
+<br>
+        <li class="menu-item-title"><span>The Tasmanian</span><span>11.00</span></li>
+        <p class="menu-item-description">Pulled BBQ chicken baked beans, jalepeno cornbread, caramelized apples</p>
+<br>
+        <li class="menu-item-title"><span>The Tasmanian Devil</span><span>12.00</span></li>
+        <p class="menu-item-description">Pulled BBQ chicken baked beans, jalepeno cornbread, caramelized apples and cheddar cheese</p>
+<br>
+        <li class="menu-item-title"><span>The Happy Italion</span><span>10.25</span></li>
+        <p class="menu-item-description">turkey, ham, pepperoni, lettuce, tomato, onion, banana peppers, provolone, mayo, & Italian Spices on a ciabatta bun</p>
+<br>
+        <li class="menu-item-title"><span>The Happy Reuben</span><span>10.25</span></li>
+        <p class="menu-item-description">Rye Bread, Thousand island sauerkraut, swiss cheese, pastrami or turkey pastrami</p>
+        <br>
+        <li class="menu-item-title"><span>The Beef Tower</span><span>9.50</span></li>
+        <p class="menu-item-description">Jalapeno cornbread, lettuce, tomato, mayo, swiss cheese, roast beef and pastrami</p>
+    </ul>
+ </div>
+<!-----------------Smoothies-------------------------->
+      <div class="menu-item">
+       	<h1 class="menu-heading">Smoothies 5.50</h1>
+<h4>Add ons</h4>
+<ul class="leaders"><li><span>Spinach</span><span>1.00</span></li><li><span>Matcha</span><span>1.50</span></li><li><span>Mct Oil</span><span>1.50</span></li><li><span>Protein</span><span>1.50</span></li><li><span>Chia Seeds</span><span>.50</span></li></ul>
+        <h4>Smoothie Flavors</h4>
+        <ul class="leaders">
+        <li class="menu-item-title"><span>Strawberry Wow</span></li>
+        <li class="menu-item-title"><span>Straw Nana</span></li>
+        <li class="menu-item-title"><span>Straw Lada</span></li>
+        <li class="menu-item-title"><span>Strawmade</span></li>
+        <li class="menu-item-title"><span>Berry Blast</span></li>
+        <li class="menu-item-title"><span>Berry Lemonade</span></li>
+        <li class="menu-item-title"><span>Spinapple</span></li>
+        <li class="menu-item-title"><span>Pina Colada</span></li>
+        <li class="menu-item-title"><span>Pineapple Splash</span></li>
+        <li class="menu-item-title"><span>Pango Madness</span></li>
+        <li class="menu-item-title"><span>Peach Paradise</span></li>
+        <li class="menu-item-title"><span>G.I. Josh</span></li>
+        <li class="menu-item-title"><span>G.I. Jane</span></li>
+
+
+
+
+
+        
+        </ul>
+      </div>
+
+
+</div>
+
+</div>
+
+   
+    
+        
+  
+  
+		<script type="text/javascript"></script>
+	</body>
+</html>
