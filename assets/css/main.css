@@ -977,12 +977,11 @@ padding-bottom: 10px;
 
 @media screen and (max-width: 480px) {
 
-  #logo-bar {
+#logo-bar {
     height: auto !important;
-    width: 50%;
-    margin-top: 0px;  
-  }
-
+    width: 60%;
+    margin-top: 6%;
+}
 
   #logo1 {
     height: auto;
