@@ -19,7 +19,7 @@
     -webkit-box-shadow: 8px 10px 3px 2px #888888;
     -moz-box-shadow: 8px 10px 3px 2px #888888;
     box-shadow: 8px 10px 3px 2px #888888;
-    background-image: linear-gradient(45deg, #000, #035595, transparent) 
+    background-image: linear-gradient(110deg, #000, #035595, transparent) 
   }
 
 button#slick-slide-control00 {
@@ -949,7 +949,8 @@ ul#test li {
 #logo-bar {
 height: auto !important;
 width: 20%;
-margin-top: 0px; }
+margin-top: 3%;
+ }
 
 
 
