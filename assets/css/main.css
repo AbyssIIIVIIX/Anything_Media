@@ -5,6 +5,10 @@
   templated.co @templatedco
   Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 */
+
+
+
+
 .container {
     width: 100%;
     padding: 15px;
@@ -2914,10 +2918,13 @@ ul.icons {
   @media screen and (max-width: 736px) {
     .wrapper {
       padding: 3rem 0 0 0 ; } }
+
   @media screen and (max-width: 480px) {
     .wrapper {
-      padding: 2rem 0 0 0 ; } }
-
+        padding: 2rem 0 0 0;
+        text-align: center;
+        padding-top: 5px;
+  } }
 /* Banner */
 #banner {
   background-attachment: fixed;
