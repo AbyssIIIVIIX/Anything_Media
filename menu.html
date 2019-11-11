@@ -8,18 +8,37 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
 		<style type="text/css">
-			
 /*@import url('https://fonts.googleapis.com/css?family=Arimo');
 @import url('https://fonts.googleapis.com/css?family=Satisfy');
 */
 
-.appetizers .menu-item {
-    background-color: #f17405;
+
+.Mobile-bar-branding {
+  width: 150%;
+}
+img.Header-branding-logo {
+  background-image:  url("https://www.iconsdb.com/icons/preview/white/circle-xxl.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  opacity: .86;
+
 }
 
-.entrees .menu-item {
-    background-color: #9ec5dc;
+div.Footer-inner {
+  background-color:#9ec5dc;
 }
+div.Header-inner--top  {
+  background-color:#9ec5dc;
+}
+
+div.appetizers .menu-item {
+    background-color: #f17405;
+}
+div.entrees .menu-item {
+  background-color: #9ec5dc;
+  ;
+}
+
 
 /* Menu Leaders -----------------------------------------------------------------------------------------------------------*/
 
@@ -181,7 +200,7 @@ p {
 
 h1, h3, a {
   font-family: satisfy;
-  color: #ffba00;
+  color: #FFFF00;
   font-weight: 600;
 }
 
@@ -191,18 +210,22 @@ h1, h3, a {
 		background-color:#F17405;
 	}
 }
+
+
 .appetizers, .entrees {
-	max-width:80%;
-	h2 {
+max-width:30em;
+h2 {
 		font-family: 'Satisfy', cursive;
 		font-size:2.5em;
 		margin-bottom:0;
 		text-align: center;
+        color: #212529;
 	}
-  h4 {
+h4 {
     font-family: satisfy;
     font-size: 1.5em;
     margin-right: 5px;
+    color: #FFFF00;
   }
 }
 
@@ -213,14 +236,8 @@ h1, h3, a {
 	.menu-item {
 		background-color:#A50303;
 	}
-  
-  .menu-item-name, * {
-    color: yellow;
-  }
-  
-  
-
 }
+
 .flex-column {
 	display:flex;
 	flex-direction:column;
@@ -264,7 +281,13 @@ h1, h3, a {
 .menu-item-description {
 	margin:0;
 }
-		</style>
+
+/******element finder*****/
+/** {
+  background: #000 !important;
+  color: #0f0 !important;
+  outline: solid #f00 1px !important;
+}*****/		</style>
 	</head>
 	<body>
 <div class="menu flex-row flex-wrap flex-center"><!--flex-row flex-wrap flex-center-->

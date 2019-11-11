@@ -947,10 +947,10 @@ ul#test li {
   
 /*logo ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 #logo-bar {
-height: auto !important;
-width: 20%;
-margin-top: 3%;
- }
+    height: auto !important;
+    width: 20%;
+   
+}
 
 
 
@@ -958,7 +958,6 @@ margin-top: 3%;
 margin: auto;  
 height: auto;
 max-width: 100%;
-padding-bottom: 10px;
 }
 
 @media screen and (max-width: 980px;) {
@@ -966,7 +965,7 @@ padding-bottom: 10px;
   #logo-bar {
   height: auto !important;
   width: 20%;
-  margin-top: 0px; 
+   
   }
 
 
