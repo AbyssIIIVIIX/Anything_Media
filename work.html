@@ -226,10 +226,21 @@ Thank you for taking the time to check me out, Anything Media Solutions thrives 
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+
+
+.slick-dots li button::before {
+	color: black;
+}
 .slick-dots li.slick-active button:before {
 	color: white;
 }
-
+/***Element Finder
+*
+{
+  background: #000 !important;
+  color: #0f0 !important;
+  outline: solid #f00 1px !important;
+}**/
 	</style>
 </head>
 
@@ -389,7 +400,7 @@ Thank you for taking the time to check me out, Anything Media Solutions thrives 
 			autoplaySpeed: 2500,
 			dots: true,
 			speed: 1500,
-			arrows: true,
+			arrows: false,
 		});
 
 	});
