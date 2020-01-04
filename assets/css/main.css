@@ -867,6 +867,24 @@ div#icons img {
   width: auto;
   height: 50px;
 }
+@media (max-width: 819px){
+  #icons {
+    display: none;
+    }
+   
+  }
+  @media (max-width: 1024px){
+    #icons {
+      display: none;
+      }
+      #logo-bar img{
+        display: block;
+        height: auto;
+        padding: 10px;
+      }
+   
+    }
+  
 @media (max-width: 860px){
   #icons {
     width: 50%;
