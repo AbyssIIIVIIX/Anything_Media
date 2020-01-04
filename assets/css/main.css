@@ -5,6 +5,7 @@ Industrious by TEMPLATED
 templated.co @templatedco
 Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 */
+
 .content a {
 color: #fff;
 
@@ -866,6 +867,21 @@ div#icons img {
   margin: 0 4rem;
   width: auto;
   height: 50px;
+}
+@media (max-width: 860px){
+  #icons {
+    width: 50%;
+    height: auto;
+    margin-top: 10px;
+    justify-content: space-between;
+    }
+    div#icons img {
+      display: inline-block;
+      margin: 0;
+      width: auto;
+      height: 50px;
+    }
+  }
 }
 @media (max-width: 480px){
   #icons{
@@ -4223,7 +4239,6 @@ position: absolute;
 right: 0;
 text-align: right;
 top: 0;
-vertical-align: middle;
 width: 7rem; }
 #menu .close:before {
 -moz-osx-font-smoothing: grayscale;
