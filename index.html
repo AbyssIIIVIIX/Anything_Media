@@ -21,7 +21,8 @@ Thank you for taking the time to check me out, Anything Media Solutions thrives 
 	<meta name="author" content="Brian Collette"/>    
 	<meta name="keywords" content="draft, drafting, CAD, CADD, web design, web development, graphic design, front-end development, back-end development" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-	
+
+	<script src="js/jquery-ui-1.9.0.custom.js"></script>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<link rel="stylesheet" href="assets/css/main.css" />
 </head>
@@ -60,7 +61,14 @@ Thank you for taking the time to check me out, Anything Media Solutions thrives 
 	<div class="inner">
 		<h1 style="text-shadow: 2px 2px #ffffff;">Anything Media Solutions</h1>
 		<p style="text-shadow: 2px 2px #000000"><b>CADD, Graphic Art, Web Design and Development, VFX, You Name it !!!</b></p>
-		<a href="work/Resume/resume2019_pdf.pdf"><button style="line-height: 2; border-radius: 10px;"><p>My Resume</p><!--My pdf resume-->
+
+		<a href="#" id="trigger">this link</a>
+		<div id="dialog" style="display:none">
+		<div>
+		<iframe src="resume2019_pdf"></iframe>
+		</div>
+		</div>
+		 <a href="work/Resume/resume2019_pdf.pdf"><button style="line-height: 2; border-radius: 10px;"><p>My Resume</p>
 		</button></a>
 	</div>
 </section>
@@ -184,8 +192,8 @@ Thank you for taking the time to check me out, Anything Media Solutions thrives 
 	<ul class="plain">
 	<li><a href="#"><i class="icon fa-twitter">&nbsp;</i>Twitter</a></li>
 	<li><a href="#"><i class="icon fa-facebook">&nbsp;</i>Facebook</a></li>
-	<li><a href="#"><i class="icon fa-instagram">&nbsp;</i>Instagram</a></li>
-	<li><a href="#"><i class="icon fa-linkedin">&nbsp;</i>linkedin</a></li>
+	<li><a href="https://www.instagram.com/Anything_MediaSolutions/"><i class="icon fa-instagram">&nbsp;</i>Instagram</a></li>
+	<li><a href="https://www.linkedin.com/in/brian-collette"><i class="icon fa-linkedin">&nbsp;</i>linkedin</a></li>
 	</ul>
 	</section>
 	</div>
@@ -204,10 +212,7 @@ Thank you for taking the time to check me out, Anything Media Solutions thrives 
 <script src="assets/js/breakpoints.min.js"></script>
 <script src="assets/js/util.js"></script>
 <script src="assets/js/main.js"></script>
-<script src="/node_modules/swup/dist/swup.min.js"></script>
-<script>
-	const swup = new Swup();
-</script>
+
 </body>
 </html>
 
