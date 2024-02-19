@@ -14,9 +14,11 @@ color: #fff;
 color: #007bff;
 
 }
-.container {
+
+
+.container{
 width: 100%;
-padding: 15px;
+padding: 2%;
 /* padding-left: 15px; */
 margin: 2rem auto 2rem auto;
 /* background-color: #0462AC; */
@@ -24,7 +26,13 @@ border-radius: 10px;
 -webkit-box-shadow: 8px 10px 3px 2px #888888;
 -moz-box-shadow: 8px 10px 3px 2px #888888;
 box-shadow: 8px 10px 3px 2px #888888;
-background-image: linear-gradient(110deg, #000, #035595, transparent) 
+background-image: linear-gradient(110deg, #000, #035595, transparent);
+}
+
+
+
+#about {
+  text-align: center;
 }
 
 button#slick-slide-control00 {
