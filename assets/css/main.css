@@ -1890,9 +1890,9 @@ padding-top: 0; }
 div.highlights > :nth-last-child(-n + 1) {
 padding-bottom: 0; }
 div.highlights > :nth-child(1n + 1) {
-padding-left: 0; }
+padding-left: 10; }
 div.highlights > :nth-child(1n) {
-padding-right: 0; }
+padding-right: 10; }
 div.highlights > :nth-child(1n + 1),
 div.highlights > :nth-child(1n) {
 width: calc(100% + 1rem); 
