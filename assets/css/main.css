@@ -1174,10 +1174,10 @@ font-weight: 600; }
 em, i {
 font-style: italic; }
 
-header.special h2 {
+header.special h2{
   text-align: center;
   text-shadow: 1.2px 1.2px #003f70;
-  color: #b7d2ff
+  color: #b7d2ff;
 }
 
 div.inner{
