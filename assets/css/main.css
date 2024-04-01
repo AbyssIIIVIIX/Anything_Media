@@ -6,7 +6,26 @@ templated.co @templatedco
 Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 */
 
+.carousel-indicators li {
+background-color: blue;
+}
 
+.carousel-control-next-icon {
+  background-color: blue;
+}
+
+.carousel-control-prev-icon {
+  background-color: blue;
+}
+
+.crofton{
+  width: 75%;
+  margin: auto;
+}
+
+.crofton h1{
+  text-align: center;
+}
 #imgMove{
 padding: 8px; 
 width: 35%;
