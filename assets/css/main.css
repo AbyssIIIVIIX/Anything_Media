@@ -6,14 +6,13 @@ templated.co @templatedco
 Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 */
 
-.pdfobject-container { height: 650px; border: 1px solid #ccc; }
 
 #imgMove{
 padding: 8px; 
 width: 35%;
 }
 
-#conBanner{
+#center{
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -47,7 +46,6 @@ border-radius: 10px;
 box-shadow: 8px 10px 3px 2px #888888;
 background-image: linear-gradient(110deg, #000, #035595, transparent);
 }
-
 
 
 #about {
