@@ -28,6 +28,13 @@
 	<!--CSS-->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<link rel="stylesheet" href="assets/css/main.css" />
+
+	<script>
+		let options = {
+			page: 2 //navigate to page 2 when the PDF is opened
+		};
+		PDFObject.embed("work/certs/All_Certs.pdf", "#my-pdf", options);
+		</script>
 </head>
 
 <body class="is-preload">
@@ -87,7 +94,8 @@
 			">Possessing the highest level of qualifications and skills in BIM, CAD and Design, as well as Technological Development. My career development potential is unparalleled, and I have the ability to manage responsibilities and build strong relationships with colleagues on all levels. Previous employers were very happy with my work pace, and I'm sure I can bring that same level of performance to your organization.
 			</p>
 			<h1 class="h1" style="text-align: center;">Certifications</h1>
-				<div class="embed-responsive embed-responsive-1by1">
+
+				<div id="my-pdf" class="pdfobject-container">
 						<embed src="work/Certs/All_Certs.pdf" type="">
 				</div>
 
@@ -352,6 +360,8 @@
 <script src="assets/js/breakpoints.min.js"></script>
 <script src="assets/js/util.js"></script>
 <script src="assets/js/main.js"></script>
+<script src="https://unpkg.com/pdfobject@2.3.0/pdfobject.min.js"></script>
+<script>PDFObject.embed("work/Certs/All_Certs.pdf", "#my-pdf");</script>
 </body>
 </html>
 
