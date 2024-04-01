@@ -11,7 +11,11 @@ Released for free under the Creative Commons Attribution 3.0 license (templated.
 padding: 8px; 
 width: 35%;
 }
-
+.col embed{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 #center{
   display: block;
   margin-left: auto;
